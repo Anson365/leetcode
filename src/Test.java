@@ -10,8 +10,12 @@ public class Test {
             for(int j=0;j<21;j++){
                 System.out.println(String.format(pre,((char)i)+""+ j,((char)i)+""+ j,((char)i)+""+ j));
             }
-
         }
+
+        Object object = new Object();
+
+
+        object.getClass();
     }
 
     public static void main(String[] args){
