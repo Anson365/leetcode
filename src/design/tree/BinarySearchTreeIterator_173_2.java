@@ -12,7 +12,7 @@ import java.util.Stack;
  */
 public class BinarySearchTreeIterator_173_2 {
 
-    private Stack<TreeNode> stack = new Stack<>();
+    private Stack<TreeNode> stack = new Stack<TreeNode>();
 
     public BinarySearchTreeIterator_173_2(TreeNode root) {
         List<TreeNode> list = new ArrayList<TreeNode>();
