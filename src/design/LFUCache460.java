@@ -14,9 +14,9 @@ public class LFUCache460 {
 
     public LFUCache460(int capacity) {
         this.capacity = capacity;
-        key2Count = new HashMap<>();
-        key2Val = new HashMap<>();
-        count2KeyList = new HashMap<>();
+        key2Count = new HashMap<Integer,Integer>();
+        key2Val = new HashMap<Integer,Integer>();
+        count2KeyList = new HashMap<Integer,LinkedList<Integer>>();
     }
 
     public int get(int key) {
@@ -28,7 +28,7 @@ public class LFUCache460 {
         count2KeyList.get(currentCount).removeFirstOccurrence(key);
         LinkedList<Integer> linkedList = count2KeyList.get(currentCount+1);
         if(linkedList == null){
-            linkedList = new LinkedList<>();
+            linkedList = new LinkedList<Integer>();
             count2KeyList.put(currentCount+1,linkedList);
         }
         linkedList.addFirst(key);
@@ -49,7 +49,7 @@ public class LFUCache460 {
             key2Count.put(key,1);
             LinkedList<Integer> linkedList = count2KeyList.get(1);
             if(linkedList == null){
-                linkedList = new LinkedList<>();
+                linkedList = new LinkedList<Integer>();
                 count2KeyList.put(1,linkedList);
             }
             if(linkedList.contains(key)){
@@ -71,7 +71,7 @@ public class LFUCache460 {
             key2Count.put(key,1);
             LinkedList<Integer> linkedList = count2KeyList.get(1);
             if(linkedList == null){
-                linkedList = new LinkedList<>();
+                linkedList = new LinkedList<Integer>();
                 count2KeyList.put(1,linkedList);
             }
             linkedList.addFirst(key);

@@ -12,9 +12,9 @@ public class KdiffPairsinanArray_532 {
     public int findPairs(int[] nums, int k) {
         if(nums==null||nums.length==0||k<0) return 0;
         int result = 0;
-        Map<Integer,Integer> map = new HashMap<>();
+        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
         for(int num:nums){
-            map.put(num,map.getOrDefault(num,0)+1);
+            map.put(num,map.get(num)==null?0:map.get(num)+1);
         }
         Set<Integer> set = map.keySet();
         for(Integer key:set){

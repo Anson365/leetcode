@@ -16,7 +16,7 @@ public class SubarraySumEqualsK_560 {
             if(map.containsKey(sum-k)){
                 result+=map.get(sum-k);
             }
-            map.put(sum,map.getOrDefault(sum,0)+1);
+            map.put(sum,map.get(sum)==null?0:map.get(sum)+1);
         }
         return result;
     }
