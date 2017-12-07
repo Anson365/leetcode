@@ -35,6 +35,7 @@ public class ShellSort {
         int i=1;
         while (ordered&&i<array.length){
             ordered = array[i]>=array[i-1];
+            i++;
         }
         return ordered;
     }
