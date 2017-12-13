@@ -17,7 +17,7 @@ public class ShellSort {
                     int temp = array[j],//temp value
                             index = j-step;// pre j value
                     while (index>=i&&array[index]>temp){  // i is the floor
-                        swap(array,index,index+step);
+                        Helper.swap(array,index,index+step);
                         index -= step;
                     }
                 }
@@ -25,23 +25,10 @@ public class ShellSort {
             step/=3;   //step indent
         }
     }
-    private static void swap(int[] array,int sourceIndex,int targetIndex){
-        int temp = array[sourceIndex];
-        array[sourceIndex] = array[targetIndex];
-        array[targetIndex] = temp;
-    }
-    private static boolean ordered(int[] array){
-        boolean ordered = true;
-        int i=1;
-        while (ordered&&i<array.length){
-            ordered = array[i]>=array[i-1];
-            i++;
-        }
-        return ordered;
-    }
+
     public static  void main(String[] args){
         int[] array = {23,34,62,12,51,4,14,3,5,7};
         ShellSort.sort(array);
-        assert(ordered(array));
+        assert(Helper.ordered(array));
     }
 }
