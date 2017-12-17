@@ -18,6 +18,7 @@ public class Helper {
             ordered = array[i]>=array[i-1];
             i++;
         }
+        System.out.println(ordered);
         Arrays.stream(array).forEach(item
                 ->System.out.println(item));
         return ordered;

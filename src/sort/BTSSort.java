@@ -8,7 +8,7 @@ public class BTSSort {
     private static int index = 0;
 
     public static void doSort(int[] array){
-       Tree bts = buildBTS(array);
+       Tree bts = buildBTS(array);// O(nlogn)
        LNR(bts,array);
     }
 
