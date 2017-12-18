@@ -1,5 +1,7 @@
 package sort;
 
+import java.util.Stack;
+
 /**
  * Created by Anson Luo(Anson.Luo@pegasus.ae) on 2017/12/14.
  */
@@ -9,7 +11,7 @@ public class BTSSort {
 
     public static void doSort(int[] array){
        Tree bts = buildBTS(array);// O(nlogn)
-       LNR(bts,array);
+        LNRWithoutRecursion(bts,array);
     }
 
     public static Tree buildBTS(int[] array){
@@ -49,6 +51,21 @@ public class BTSSort {
         array[index++]=tree.val;
        //right
         LNR(tree.right,array);
+    }
+
+    public static void LNRWithoutRecursion(Tree tree,int[] array){
+        Stack<Tree> treeStack = new Stack<>();
+        while (tree!= null||!treeStack.empty()){
+            while(tree!=null){
+                treeStack.push(tree);
+                tree = tree.left;
+            }
+            if(!treeStack.empty()){
+                tree = treeStack.pop();
+                array[index++] = tree.val;
+                tree = tree.right;
+            }
+        }
     }
 
 

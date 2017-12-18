@@ -44,9 +44,27 @@ public class HeapSort {
 
 
         int[] array2 = {23,34,62,12,51,4,14,3,5,7};
-        HeapSort.heapSink(array2);
+        HeapSort.heapSwim(array2);
         Helper.ordered(array2);
     }
 
 
+    public static void heapSwim(int[] array){
+        int n = array.length/2;
+        //ordered heap
+        for(int i=1;i<n;i++){
+            swim(array,i);
+        }
+        for(int i=array.length-1;i>0;i--){
+            Helper.swap(array,i,0);
+            swim(array,i-1);//ordered heap;
+        }
+    }
+    //compare with son,if less ,swap
+    private static void swim(int[] array,int k){
+        while (k>0&&array[k/2]<array[k]){
+            Helper.swap(array,k/2,k);
+            k/=2;
+        }
+    }
 }
