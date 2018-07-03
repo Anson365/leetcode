@@ -41,6 +41,6 @@ public class NQueens2_52 {
 
     public static void main(String[] args){
         NQueens2_52 nQueens2_52 = new NQueens2_52();
-        nQueens2_52.totalNQueens(4);
+        System.out.println(nQueens2_52.totalNQueens(8));
     }
 }
