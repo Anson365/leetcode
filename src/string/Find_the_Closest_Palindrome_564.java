@@ -37,17 +37,17 @@ public class Find_the_Closest_Palindrome_564 {
             return length == 1 ? 0 : 9;
         }
         StringBuilder temp = new StringBuilder().append(n);
-        StringBuilder reverse = temp.reverse();
+        StringBuilder reverse = new StringBuilder(temp).reverse();
         if (temp.length() < length/2) {
             reverse.append(9);
         }
-        String resultStr = temp.append(reverse).toString();
+        String resultStr = temp.append(reverse.substring(reverse.length() - length/2)).toString();
         return Long.valueOf(resultStr);
     }
 
     public static void main(String[] args) {
         Find_the_Closest_Palindrome_564 find_the_closest_palindrome_564 = new Find_the_Closest_Palindrome_564();
-        find_the_closest_palindrome_564.nearestPalindromic("1");
+        find_the_closest_palindrome_564.nearestPalindromic("88887");
     }
 
 }
