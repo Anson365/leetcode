@@ -1,9 +1,5 @@
 package array;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by Anson Luo(Anson.Luo@pegasus.ae) on 9/22/18.
  */

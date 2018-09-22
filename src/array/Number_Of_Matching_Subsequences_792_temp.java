@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * Created by Anson Luo(Anson.Luo@pegasus.ae) on 9/21/18.
  */
-public class Number_Of_Matching_Subsequences_792 {
+public class Number_Of_Matching_Subsequences_792_temp {
     public int numMatchingSubseq(String S, String[] words) {
         int result = 0;
         List<MiddleClass> list = new ArrayList<>();
