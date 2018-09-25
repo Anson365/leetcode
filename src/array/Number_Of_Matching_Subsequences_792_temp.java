@@ -30,7 +30,7 @@ public class Number_Of_Matching_Subsequences_792_temp {
         if (tStart == t.length()) {
             return true;
         }
-        for (int i = index + 1; i < s.length() && tStart < t.length(); i++) {
+        for (int i = index; i < s.length() && tStart < t.length(); i++) {
             if (t.charAt(tStart) == s.charAt(i)) {
                 index = addList(index, s, i, list);
                 tStart++;
@@ -41,7 +41,7 @@ public class Number_Of_Matching_Subsequences_792_temp {
     }
 
     private int addList(int index, String s, int charIndex, List<MiddleClass> list) {
-        for (int i = index; i < list.size(); i++) {
+        for (int i = index; i < list.size() && list.size() > 0; i++) {
             MiddleClass temp = list.get(i);
             if (temp.index > index) {
                 list.add(i, new MiddleClass(s.charAt(charIndex), charIndex));
@@ -60,5 +60,12 @@ public class Number_Of_Matching_Subsequences_792_temp {
             this.value = value;
             this.index = index;
         }
+    }
+
+    public static void main(String[] args) {
+        String s = "abcde";
+        String[] words = {"a", "bb", "acd", "ace"};
+        Number_Of_Matching_Subsequences_792_temp number_of_matching_subsequences_792_temp = new Number_Of_Matching_Subsequences_792_temp();
+        number_of_matching_subsequences_792_temp.numMatchingSubseq(s, words);
     }
 }
