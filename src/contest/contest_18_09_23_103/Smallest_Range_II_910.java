@@ -1,6 +1,5 @@
 package contest.contest_18_09_23_103;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**

@@ -1,7 +1,5 @@
 package contest.contest_18_09_23_103;
 
-import java.util.Arrays;
-
 /**
  * Created by Anson Luo(Anson.Luo@pegasus.ae) on 9/23/18.
  */
