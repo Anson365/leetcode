@@ -2,10 +2,6 @@ package tree;
 
 import BaseConstruction.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
-
 /**
  * Created by Anson Luo(Anson.Luo@pegasus.ae) on 10/19/18.
  */
