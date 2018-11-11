@@ -19,7 +19,7 @@ public class _4Sum_II_454 {
         for (int c : C) {
             for (int d : D) {
                 int temp = c + d;
-                result += map.getOrDefault(-(c + d), 0);
+                result += map.getOrDefault(-temp, 0);
             }
         }
         return result;
