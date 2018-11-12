@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by Anson Luo(Anson.Luo@pegasus.ae) on 11/11/18.
  */
-public class Contest1 {
+public class Reorder_Log_Files_937 {
     public String[] reorderLogFiles(String[] logs) {
         List<String> digList = new ArrayList<>();
         List<String> alpList = new ArrayList<>();
@@ -36,7 +36,7 @@ public class Contest1 {
     }
 
     public static void main(String[] args) {
-        Contest1 contest1 = new Contest1();
+        Reorder_Log_Files_937 contest1 = new Reorder_Log_Files_937();
         contest1.reorderLogFiles(new String[] {"a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"});
     }
 }
