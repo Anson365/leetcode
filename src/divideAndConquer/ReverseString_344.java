@@ -11,7 +11,6 @@ public class ReverseString_344 {
             array[i] = array[array.length - 1 - i];
             array[array.length - 1 - i] = temp;
         }
-        StringBuilder
         return new String(array);
     }
 }
