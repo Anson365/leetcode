@@ -32,6 +32,6 @@ public class MinimumVSum {
 
     public static void main(String[] args) {
         MinimumVSum minimumVSum = new MinimumVSum();
-        minimumVSum.find(new int[]{1,2,3});
+        minimumVSum.find(new int[]{1,2,3,4,5,6});
     }
 }
