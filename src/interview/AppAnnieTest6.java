@@ -7,7 +7,6 @@ public class AppAnnieTest6 {
     private int max = 0;
     public int solution(String[] B) {
         // write your code in Java SE 8
-        int row = B.length, column = B[0].length();
         int x = 0, y = 0;
         for (int i = 0; i < B.length; i++) {
             String temp = B[i];
@@ -17,7 +16,7 @@ public class AppAnnieTest6 {
                 break;
             }
         }
-        if (y < 1) {
+        if (y < 2) {
             return max;
         }
         doJudge(x, y, B, 0);
@@ -44,10 +43,4 @@ public class AppAnnieTest6 {
         }
         max = Math.max(max, count);
     }
-
-    public static void main(String[] args) {
-        AppAnnieTest6 appAnnieTest6 = new AppAnnieTest6();
-        appAnnieTest6.solution(new String[] {"..X...", "......", "....X.", ".X....", "..X.X.", "...O.."});
-    }
-
 }
