@@ -13,7 +13,7 @@ public class ReversePartList {
         ListNode fast = head;
         ListNode slow = head;
         int i = 0;
-        while(fast != null && i < k - 1) {
+        while(fast.next != null && i < k - 1) {
             fast = fast.next;
             i++;
         }
