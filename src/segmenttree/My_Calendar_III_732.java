@@ -25,13 +25,13 @@ public class My_Calendar_III_732 {
     }
 
 
-    public static void main(String[] args) {
-        My_Calendar_III_732 my_calendar_iii_732 = new My_Calendar_III_732();
-        my_calendar_iii_732.book(10, 20);
-        my_calendar_iii_732.book(50, 60);
-        my_calendar_iii_732.book(10, 40);
-        my_calendar_iii_732.book(5, 15);
-        my_calendar_iii_732.book(5, 10);
-        my_calendar_iii_732.book(25, 55);
-    }
+//    public static void main(String[] args) {
+//        My_Calendar_III_732 my_calendar_iii_732 = new My_Calendar_III_732();
+//        my_calendar_iii_732.book(10, 20);
+//        my_calendar_iii_732.book(50, 60);
+//        my_calendar_iii_732.book(10, 40);
+//        my_calendar_iii_732.book(5, 15);
+//        my_calendar_iii_732.book(5, 10);
+//        my_calendar_iii_732.book(25, 55);
+//    }
 }

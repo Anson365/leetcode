@@ -34,9 +34,9 @@ public class MergeSort {
         }
     }
 
-    public static void main(String[] args){
-        int[] array = {23,34,62,12,51,4,14,3,5,7};
-        MergeSort.merge(array);
-        Helper.ordered(array);
-    }
+//    public static void main(String[] args){
+//        int[] array = {23,34,62,12,51,4,14,3,5,7};
+//        MergeSort.merge(array);
+//        Helper.ordered(array);
+//    }
 }

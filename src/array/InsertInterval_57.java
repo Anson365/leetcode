@@ -55,15 +55,15 @@ public class InsertInterval_57 {
     }
 
 
-    public static void main(String[] args){
-        Interval interval1 = new Interval(1,3);
-        Interval interval2 = new Interval(6,9);
-        Interval temp = new Interval(2,5);
-        List<Interval> list = new ArrayList<Interval>();
-        list.add(interval1);
-        list.add(interval2);
-        InsertInterval_57 insertInterval_57 = new InsertInterval_57();
-        insertInterval_57.insert(list,temp);
-        System.out.print("a");
-    }
+//    public static void main(String[] args){
+//        Interval interval1 = new Interval(1,3);
+//        Interval interval2 = new Interval(6,9);
+//        Interval temp = new Interval(2,5);
+//        List<Interval> list = new ArrayList<Interval>();
+//        list.add(interval1);
+//        list.add(interval2);
+//        InsertInterval_57 insertInterval_57 = new InsertInterval_57();
+//        insertInterval_57.insert(list,temp);
+//        System.out.print("a");
+//    }
 }

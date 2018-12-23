@@ -26,11 +26,11 @@ public class TargetSum_494 {
     }
 
 
-    public static void main(String[] args){
-        int[] nums = {1,1,1,1,1};
-        int S = 3;
-        TargetSum_494 targetSum_494 = new TargetSum_494();
-        int count = targetSum_494.findTargetSumWays(nums,3);
-        return;
-    }
+//    public static void main(String[] args){
+//        int[] nums = {1,1,1,1,1};
+//        int S = 3;
+//        TargetSum_494 targetSum_494 = new TargetSum_494();
+//        int count = targetSum_494.findTargetSumWays(nums,3);
+//        return;
+//    }
 }

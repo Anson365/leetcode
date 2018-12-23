@@ -29,11 +29,11 @@ public class ValidateBinarySearchTree_98 {
     }
 
 
-    public static void main(String[] args) {
-        ValidateBinarySearchTree_98 validateBinarySearchTree_98 = new ValidateBinarySearchTree_98();
-        TreeNode treeNode = new TreeNode(1);
-        treeNode.left = new TreeNode(1);
-        Boolean result = validateBinarySearchTree_98.isValidBST(treeNode);
-        System.out.println(result);
-    }
+//    public static void main(String[] args) {
+//        ValidateBinarySearchTree_98 validateBinarySearchTree_98 = new ValidateBinarySearchTree_98();
+//        TreeNode treeNode = new TreeNode(1);
+//        treeNode.left = new TreeNode(1);
+//        Boolean result = validateBinarySearchTree_98.isValidBST(treeNode);
+//        System.out.println(result);
+//    }
 }

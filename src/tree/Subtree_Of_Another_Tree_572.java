@@ -34,8 +34,4 @@ public class Subtree_Of_Another_Tree_572 {
     }
 
 
-    public static void main(String[] args) {
-
-    }
-
 }

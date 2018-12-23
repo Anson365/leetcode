@@ -28,18 +28,18 @@ public class Linked_List_Cycle_II_142 {
         return head;
     }
 
-    public static void main(String[] args) {
-        Linked_List_Cycle_II_142 linked_list_cycle_ii_142 = new Linked_List_Cycle_II_142();
-        ListNode listNode1 = new ListNode(3);
-        ListNode listNode2 = new ListNode(2);
-        ListNode listNode3 = new ListNode(0);
-        ListNode listNode4 = new ListNode(4);
-        ListNode listNode5 = new ListNode(5);
-        listNode5.next = listNode1;
-        listNode1.next = listNode2;
-        listNode2.next = listNode3;
-        listNode3.next = listNode4;
-        listNode4.next = listNode5;
-        linked_list_cycle_ii_142.detectCycle(listNode1);
-    }
+//    public static void main(String[] args) {
+//        Linked_List_Cycle_II_142 linked_list_cycle_ii_142 = new Linked_List_Cycle_II_142();
+//        ListNode listNode1 = new ListNode(3);
+//        ListNode listNode2 = new ListNode(2);
+//        ListNode listNode3 = new ListNode(0);
+//        ListNode listNode4 = new ListNode(4);
+//        ListNode listNode5 = new ListNode(5);
+//        listNode5.next = listNode1;
+//        listNode1.next = listNode2;
+//        listNode2.next = listNode3;
+//        listNode3.next = listNode4;
+//        listNode4.next = listNode5;
+//        linked_list_cycle_ii_142.detectCycle(listNode1);
+//    }
 }

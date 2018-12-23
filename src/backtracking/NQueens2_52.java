@@ -39,8 +39,8 @@ public class NQueens2_52 {
         return true;
     }
 
-    public static void main(String[] args){
-        NQueens2_52 nQueens2_52 = new NQueens2_52();
-        System.out.println(nQueens2_52.totalNQueens(8));
-    }
+//    public static void main(String[] args){
+//        NQueens2_52 nQueens2_52 = new NQueens2_52();
+//        System.out.println(nQueens2_52.totalNQueens(8));
+//    }
 }

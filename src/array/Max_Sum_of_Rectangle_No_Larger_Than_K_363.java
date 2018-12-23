@@ -38,13 +38,13 @@ public class Max_Sum_of_Rectangle_No_Larger_Than_K_363 {
         return max;
     }
 
-    public static void main(String[] args) {
-        int[][] array = {{5,-4,-3,4},{-3,-4,4,5},{5,1,5,-4}};
-        Max_Sum_of_Rectangle_No_Larger_Than_K_363 max_sum_of_rectangle_no_larger_than_k_363 = new Max_Sum_of_Rectangle_No_Larger_Than_K_363();
-//        max_sum_of_rectangle_no_larger_than_k_363.maxSumSubmatrix(array, 8);
-
-
-        int[] temp = {5, 6, 3};
-        max_sum_of_rectangle_no_larger_than_k_363.findMax(temp, 4);
-    }
+//    public static void main(String[] args) {
+//        int[][] array = {{5,-4,-3,4},{-3,-4,4,5},{5,1,5,-4}};
+//        Max_Sum_of_Rectangle_No_Larger_Than_K_363 max_sum_of_rectangle_no_larger_than_k_363 = new Max_Sum_of_Rectangle_No_Larger_Than_K_363();
+////        max_sum_of_rectangle_no_larger_than_k_363.maxSumSubmatrix(array, 8);
+//
+//
+//        int[] temp = {5, 6, 3};
+//        max_sum_of_rectangle_no_larger_than_k_363.findMax(temp, 4);
+//    }
 }

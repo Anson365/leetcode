@@ -26,8 +26,8 @@ public class Valid_Triangle_Number_611 {
         return result;
     }
 
-    public static void main(String[] args) {
-        Valid_Triangle_Number_611 valid_triangle_number_611 = new Valid_Triangle_Number_611();
-        valid_triangle_number_611.triangleNumber(new int[] {2,2,3,4});
-    }
+//    public static void main(String[] args) {
+//        Valid_Triangle_Number_611 valid_triangle_number_611 = new Valid_Triangle_Number_611();
+//        valid_triangle_number_611.triangleNumber(new int[] {2,2,3,4});
+//    }
 }

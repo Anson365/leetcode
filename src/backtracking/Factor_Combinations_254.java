@@ -29,8 +29,8 @@ public class Factor_Combinations_254 {
         }
     }
 
-    public static void main(String[] args) {
-        Factor_Combinations_254 factor_combinations_254 = new Factor_Combinations_254();
-        factor_combinations_254.getFactors(32);
-    }
+//    public static void main(String[] args) {
+//        Factor_Combinations_254 factor_combinations_254 = new Factor_Combinations_254();
+//        factor_combinations_254.getFactors(32);
+//    }
 }

@@ -49,11 +49,11 @@ public class PermutationInString_567 {
         return false;
     }
 
-    public static void main(String[] args){
-        String s1 = "adc";
-        String s2 = "dcda";
-        PermutationInString_567 permutationInString_567 = new PermutationInString_567();
-        permutationInString_567.checkInclusion(s1,s2);
-
-    }
+//    public static void main(String[] args){
+//        String s1 = "adc";
+//        String s2 = "dcda";
+//        PermutationInString_567 permutationInString_567 = new PermutationInString_567();
+//        permutationInString_567.checkInclusion(s1,s2);
+//
+//    }
 }

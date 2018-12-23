@@ -31,9 +31,9 @@ public class Non_decreasing_Array_665 {
         return true;
     }
 
-    public static void main(String[] args) {
-        int[] nums = {2,3,3,2,4};
-        Non_decreasing_Array_665 non_decreasing_array_665 = new Non_decreasing_Array_665();
-        non_decreasing_array_665.checkPossibility(nums);
-    }
+//    public static void main(String[] args) {
+//        int[] nums = {2,3,3,2,4};
+//        Non_decreasing_Array_665 non_decreasing_array_665 = new Non_decreasing_Array_665();
+//        non_decreasing_array_665.checkPossibility(nums);
+//    }
 }

@@ -41,14 +41,14 @@ public class Non_overlappingIntervals_435 {
         Interval(int s, int e) { start = s; end = e; }
     }
 
-    public static void main(String[] args){
-        Interval interval1 = new Interval(10,100);
-        Interval interval2 = new Interval(11,22);
-        Interval interval3 = new Interval(9,33);
-        Interval[] intervals = {interval1,interval2,interval3};
-        int result = new Non_overlappingIntervals_435().eraseOverlapIntervals(intervals);
-        return;
-
-
-    }
+//    public static void main(String[] args){
+//        Interval interval1 = new Interval(10,100);
+//        Interval interval2 = new Interval(11,22);
+//        Interval interval3 = new Interval(9,33);
+//        Interval[] intervals = {interval1,interval2,interval3};
+//        int result = new Non_overlappingIntervals_435().eraseOverlapIntervals(intervals);
+//        return;
+//
+//
+//    }
 }

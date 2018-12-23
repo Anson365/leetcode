@@ -24,10 +24,10 @@ public class RotateArray_189 {
         }
     }
 
-    public static void main(String[] args){
-        int[] nums = {1};
-        int k = 0;
-        RotateArray_189 rotateArray_189 = new RotateArray_189();
-        rotateArray_189.rotate(nums,k);
-    }
+//    public static void main(String[] args){
+//        int[] nums = {1};
+//        int k = 0;
+//        RotateArray_189 rotateArray_189 = new RotateArray_189();
+//        rotateArray_189.rotate(nums,k);
+//    }
 }

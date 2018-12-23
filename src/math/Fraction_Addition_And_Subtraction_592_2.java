@@ -42,11 +42,11 @@ public class Fraction_Addition_And_Subtraction_592_2 {
         }
     }
 
-    public static void main(String[] args){
-        String temp = "-5/2+10/3+7/9";
-        Fraction_Addition_And_Subtraction_592_2 fractionAdditionandSubtraction_592
-                = new Fraction_Addition_And_Subtraction_592_2();
-        String result = fractionAdditionandSubtraction_592.fractionAddition(temp);
-        System.out.println(result);
-    }
+//    public static void main(String[] args){
+//        String temp = "-5/2+10/3+7/9";
+//        Fraction_Addition_And_Subtraction_592_2 fractionAdditionandSubtraction_592
+//                = new Fraction_Addition_And_Subtraction_592_2();
+//        String result = fractionAdditionandSubtraction_592.fractionAddition(temp);
+//        System.out.println(result);
+//    }
 }

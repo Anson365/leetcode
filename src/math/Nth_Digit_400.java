@@ -22,8 +22,8 @@ public class Nth_Digit_400 {
         return result;
     }
 
-    public static void main(String[] args) {
-        Nth_Digit_400 nth_digit_400 = new Nth_Digit_400();
-        nth_digit_400.findNthDigit(1000000000);
-    }
+//    public static void main(String[] args) {
+//        Nth_Digit_400 nth_digit_400 = new Nth_Digit_400();
+//        nth_digit_400.findNthDigit(1000000000);
+//    }
 }

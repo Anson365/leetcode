@@ -26,11 +26,11 @@ public class FractionAdditionandSubtraction_592 {
 
     // Computes gcd using Euclidean algorithm
     public int gcd(int x, int y) { return x == 0 || y == 0 ? x + y : gcd(y, x % y); }
-    public static void main(String[] args){
-        String temp = "-5/2+10/3+7/9";
-        FractionAdditionandSubtraction_592 fractionAdditionandSubtraction_592
-                = new FractionAdditionandSubtraction_592();
-        String result = fractionAdditionandSubtraction_592.fractionAddition(temp);
-        System.out.println(result);
-    }
+//    public static void main(String[] args){
+//        String temp = "-5/2+10/3+7/9";
+//        FractionAdditionandSubtraction_592 fractionAdditionandSubtraction_592
+//                = new FractionAdditionandSubtraction_592();
+//        String result = fractionAdditionandSubtraction_592.fractionAddition(temp);
+//        System.out.println(result);
+//    }
 }

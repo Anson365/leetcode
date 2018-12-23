@@ -27,10 +27,10 @@ public class Next_Greater_Element_I_496 {
         }
         return result;
     }
-    public static void main(String[] args) {
-        Next_Greater_Element_I_496 next_greater_element_i_496 = new Next_Greater_Element_I_496();
-        int[] nums1 = {4,1,2};
-        int[] nums2 = {1,3,4,2};
-        next_greater_element_i_496.nextGreaterElement(nums1, nums2);
-    }
+//    public static void main(String[] args) {
+//        Next_Greater_Element_I_496 next_greater_element_i_496 = new Next_Greater_Element_I_496();
+//        int[] nums1 = {4,1,2};
+//        int[] nums2 = {1,3,4,2};
+//        next_greater_element_i_496.nextGreaterElement(nums1, nums2);
+//    }
 }

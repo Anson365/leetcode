@@ -49,16 +49,16 @@ public class Search4Range_34 {
         last = index;
     }
 
-    public static void main(String[] args){
-        int[] array = {5, 7, 7, 8, 8, 10};
-        int target = 8;
-        Search4Range_34 search4Range_34 = new Search4Range_34();
-        search4Range_34.findFirst(array, target);
-        int start = search4Range_34.first;
-        search4Range_34.findLast(array,target,start);
-        int end = search4Range_34.last;
-        System.out.print(end);
-    }
+//    public static void main(String[] args){
+//        int[] array = {5, 7, 7, 8, 8, 10};
+//        int target = 8;
+//        Search4Range_34 search4Range_34 = new Search4Range_34();
+//        search4Range_34.findFirst(array, target);
+//        int start = search4Range_34.first;
+//        search4Range_34.findLast(array,target,start);
+//        int end = search4Range_34.last;
+//        System.out.print(end);
+//    }
 
 
 }

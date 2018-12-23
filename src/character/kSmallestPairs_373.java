@@ -43,10 +43,10 @@ public class kSmallestPairs_373 {
         }
     }
 
-    public static void main(String[] args){
-        int[] nums1 = {1,1,2};
-        int[] nums2 = {1,2,3};
-        kSmallestPairs_373 kSmallestPairs_373 = new kSmallestPairs_373();
-        kSmallestPairs_373.kSmallestPairs(nums1,nums2,10);
-    }
+//    public static void main(String[] args){
+//        int[] nums1 = {1,1,2};
+//        int[] nums2 = {1,2,3};
+//        kSmallestPairs_373 kSmallestPairs_373 = new kSmallestPairs_373();
+//        kSmallestPairs_373.kSmallestPairs(nums1,nums2,10);
+//    }
 }

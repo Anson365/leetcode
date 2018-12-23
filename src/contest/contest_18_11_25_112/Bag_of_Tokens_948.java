@@ -70,8 +70,8 @@ public class Bag_of_Tokens_948 {
         return count;
     }
 
-    public static void main(String[] args) {
-        Bag_of_Tokens_948 bagofTokens948 = new Bag_of_Tokens_948();
-        bagofTokens948.bagOfTokensScore(new int[]{87,24,32},87);
-    }
+//    public static void main(String[] args) {
+//        Bag_of_Tokens_948 bagofTokens948 = new Bag_of_Tokens_948();
+//        bagofTokens948.bagOfTokensScore(new int[]{87,24,32},87);
+//    }
 }

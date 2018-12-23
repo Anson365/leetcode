@@ -21,11 +21,11 @@ public class SubarraySumEqualsK_560 {
         return result;
     }
 
-    public static void main(String[] args){
-        int[] nums = {1,2,3};
-        int k = 3;
-        SubarraySumEqualsK_560 subarraySumEqualsK_560 = new SubarraySumEqualsK_560();
-        int result = subarraySumEqualsK_560.subarraySum(nums,k);
-        System.out.print(true);
-    }
+//    public static void main(String[] args){
+//        int[] nums = {1,2,3};
+//        int k = 3;
+//        SubarraySumEqualsK_560 subarraySumEqualsK_560 = new SubarraySumEqualsK_560();
+//        int result = subarraySumEqualsK_560.subarraySum(nums,k);
+//        System.out.print(true);
+//    }
 }

@@ -29,8 +29,8 @@ public class ClimbStairs {
     }
 
 
-    public static void main(String[] args){
-        int result = new ClimbStairs().doClimb(10);
-        System.out.println(result);
-    }
+//    public static void main(String[] args){
+//        int result = new ClimbStairs().doClimb(10);
+//        System.out.println(result);
+//    }
 }

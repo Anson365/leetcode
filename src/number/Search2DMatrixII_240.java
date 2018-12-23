@@ -38,11 +38,11 @@ public class Search2DMatrixII_240 {
         return false;
     }
 
-    public static void main(String[] args){
-        int[][] matrix = {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}};
-        int target = 15;
-        Search2DMatrixII_240 search2DMatrixII_240 = new Search2DMatrixII_240();
-        Boolean result = search2DMatrixII_240.searchMatrix(matrix,target);
-        int i= 0;
-    }
+//    public static void main(String[] args){
+//        int[][] matrix = {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}};
+//        int target = 15;
+//        Search2DMatrixII_240 search2DMatrixII_240 = new Search2DMatrixII_240();
+//        Boolean result = search2DMatrixII_240.searchMatrix(matrix,target);
+//        int i= 0;
+//    }
 }

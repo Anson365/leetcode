@@ -29,10 +29,10 @@ public class QueueReconstructionByHeight_406 {
     }
 
 
-    public static void main(String[] args){
-        int[][] people = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
-        QueueReconstructionByHeight_406 queueReconstructionByHeight_406 = new QueueReconstructionByHeight_406();
-        int[][] result = queueReconstructionByHeight_406.reconstructQueue(people);
-        return;
-    }
+//    public static void main(String[] args){
+//        int[][] people = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
+//        QueueReconstructionByHeight_406 queueReconstructionByHeight_406 = new QueueReconstructionByHeight_406();
+//        int[][] result = queueReconstructionByHeight_406.reconstructQueue(people);
+//        return;
+//    }
 }

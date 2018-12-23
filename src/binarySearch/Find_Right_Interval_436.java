@@ -46,17 +46,17 @@ public class Find_Right_Interval_436 {
         }
     }
 
-    public static void main(String[] args) {
-        Find_Right_Interval_436 find_right_interval_436 = new Find_Right_Interval_436();
-//        [[1,12],[2,9],[3,10],[13,14],[15,16],[16,17]]
-        Interval interval1 = new Interval(1,12);
-        Interval interval2 = new Interval(2,9);
-        Interval interval3 = new Interval(3,10);
-        Interval interval4 = new Interval(13,14);
-        Interval interval5 = new Interval(15,16);
-        Interval interval6 = new Interval(16, 17);
-        Interval[] array = {interval1, interval2, interval3, interval4, interval5, interval6};
-        int[] result = find_right_interval_436.findRightInterval(array);
-        System.out.println(result);
-    }
+//    public static void main(String[] args) {
+//        Find_Right_Interval_436 find_right_interval_436 = new Find_Right_Interval_436();
+////        [[1,12],[2,9],[3,10],[13,14],[15,16],[16,17]]
+//        Interval interval1 = new Interval(1,12);
+//        Interval interval2 = new Interval(2,9);
+//        Interval interval3 = new Interval(3,10);
+//        Interval interval4 = new Interval(13,14);
+//        Interval interval5 = new Interval(15,16);
+//        Interval interval6 = new Interval(16, 17);
+//        Interval[] array = {interval1, interval2, interval3, interval4, interval5, interval6};
+//        int[] result = find_right_interval_436.findRightInterval(array);
+//        System.out.println(result);
+//    }
 }

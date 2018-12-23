@@ -23,9 +23,9 @@ public class GCD_LCM {
     }
 
 
-    public static void main(String[] args){
-        int m=99 ,n=135;
-        int lcm = doLCM(m,n);
-        System.out.println(lcm);
-    }
+//    public static void main(String[] args){
+//        int m=99 ,n=135;
+//        int lcm = doLCM(m,n);
+//        System.out.println(lcm);
+//    }
 }

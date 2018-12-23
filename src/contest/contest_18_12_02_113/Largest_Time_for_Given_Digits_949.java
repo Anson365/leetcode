@@ -66,8 +66,8 @@ public class Largest_Time_for_Given_Digits_949 {
         return result.toString();
     }
 
-    public static void main(String[] args) {
-        Largest_Time_for_Given_Digits_949 contest1 = new Largest_Time_for_Given_Digits_949();
-        contest1.largestTimeFromDigits(new int[]{2,0,6,6});
-    }
+//    public static void main(String[] args) {
+//        Largest_Time_for_Given_Digits_949 contest1 = new Largest_Time_for_Given_Digits_949();
+//        contest1.largestTimeFromDigits(new int[]{2,0,6,6});
+//    }
 }

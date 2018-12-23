@@ -40,13 +40,13 @@ public class HeapSort {
     }
 
 
-    public static void main(String[] args){
-
-
-        int[] array2 = {23,34,62,12,51,4,14,3,5,7};
-        HeapSort.heapSwim(array2);
-        Helper.ordered(array2);
-    }
+//    public static void main(String[] args){
+//
+//
+//        int[] array2 = {23,34,62,12,51,4,14,3,5,7};
+//        HeapSort.heapSwim(array2);
+//        Helper.ordered(array2);
+//    }
 
 
     public static void heapSwim(int[] array){

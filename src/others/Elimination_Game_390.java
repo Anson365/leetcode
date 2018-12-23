@@ -24,8 +24,8 @@ public class Elimination_Game_390 {
         return head;
     }
 
-    public static void main(String[] args) {
-        Elimination_Game_390 elimination_game_390 = new Elimination_Game_390();
-        elimination_game_390.lastRemaining(10);
-    }
+//    public static void main(String[] args) {
+//        Elimination_Game_390 elimination_game_390 = new Elimination_Game_390();
+//        elimination_game_390.lastRemaining(10);
+//    }
 }

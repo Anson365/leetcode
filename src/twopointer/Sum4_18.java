@@ -84,10 +84,10 @@ public class Sum4_18 {
         }
     }
 
-    public static void main(String[] args){
-        Sum4_18 sum4_18 = new Sum4_18();
-        int[] temp = {1, 0, -1, 0, -2, 2};
-        int target = 0;
-        sum4_18.fourSum(temp,target);
-    }
+//    public static void main(String[] args){
+//        Sum4_18 sum4_18 = new Sum4_18();
+//        int[] temp = {1, 0, -1, 0, -2, 2};
+//        int target = 0;
+//        sum4_18.fourSum(temp,target);
+//    }
 }

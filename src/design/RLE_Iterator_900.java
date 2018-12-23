@@ -43,12 +43,12 @@ public class RLE_Iterator_900 {
 
     }
 
-    public static void main(String[] args) {
-        int[] A = {3,8,0,9,2,5};
-        RLE_Iterator_900 rle_iterator_900 = new RLE_Iterator_900(A);
-        int temp = rle_iterator_900.next(2);
-        int temp1 = rle_iterator_900.next(2);
-    }
+//    public static void main(String[] args) {
+//        int[] A = {3,8,0,9,2,5};
+//        RLE_Iterator_900 rle_iterator_900 = new RLE_Iterator_900(A);
+//        int temp = rle_iterator_900.next(2);
+//        int temp1 = rle_iterator_900.next(2);
+//    }
 
     class Constructor {
         private int repeat;

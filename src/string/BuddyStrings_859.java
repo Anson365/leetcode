@@ -47,9 +47,9 @@ public class BuddyStrings_859 {
         return tempA == null && tempB == null;
     }
 
-    public static void main(String[] args) {
-        BuddyStrings_859 buddyStrings_859 = new BuddyStrings_859();
-        boolean result = buddyStrings_859.buddyStrings("ab", "ab");
-        System.out.println(result);
-    }
+//    public static void main(String[] args) {
+//        BuddyStrings_859 buddyStrings_859 = new BuddyStrings_859();
+//        boolean result = buddyStrings_859.buddyStrings("ab", "ab");
+//        System.out.println(result);
+//    }
 }

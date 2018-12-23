@@ -38,9 +38,9 @@ public class Valid_Tic_Tac_Toe_State_794 {
         return true;
     }
 
-    public static void main(String[] args) {
-        Valid_Tic_Tac_Toe_State_794 valid_tic_tac_toe_state_794 = new Valid_Tic_Tac_Toe_State_794();
-        valid_tic_tac_toe_state_794.validTicTacToe(new String[] {"X  ","   ","  O"});
-    }
+//    public static void main(String[] args) {
+//        Valid_Tic_Tac_Toe_State_794 valid_tic_tac_toe_state_794 = new Valid_Tic_Tac_Toe_State_794();
+//        valid_tic_tac_toe_state_794.validTicTacToe(new String[] {"X  ","   ","  O"});
+//    }
 
 }

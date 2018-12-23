@@ -50,9 +50,9 @@ public class NextGreaterElementIII_556 {
         chars[target] = tempChar;
     }
 
-    public static void main(String[] args){
-        NextGreaterElementIII_556 nextGreaterElementIII_556 = new NextGreaterElementIII_556();
-        int result = nextGreaterElementIII_556.nextGreaterElement(12443322);
-        System.out.println(result);
-    }
+//    public static void main(String[] args){
+//        NextGreaterElementIII_556 nextGreaterElementIII_556 = new NextGreaterElementIII_556();
+//        int result = nextGreaterElementIII_556.nextGreaterElement(12443322);
+//        System.out.println(result);
+//    }
 }

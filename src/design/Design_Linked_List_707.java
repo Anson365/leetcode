@@ -122,8 +122,8 @@ public class Design_Linked_List_707 {
         }
     }
 
-    public static void main(String[] args) {
-        Design_Linked_List_707 design_linked_list_707 = new Design_Linked_List_707();
-        design_linked_list_707.addAtIndex(0, 1);
-    }
+//    public static void main(String[] args) {
+//        Design_Linked_List_707 design_linked_list_707 = new Design_Linked_List_707();
+//        design_linked_list_707.addAtIndex(0, 1);
+//    }
 }

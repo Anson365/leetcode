@@ -30,9 +30,9 @@ public class Smallest_Range_II_910 {
         return result;
     }
 
-    public static void main(String[] args) {
-        Smallest_Range_II_910 smallest_range_ii_910 = new Smallest_Range_II_910();
-        int[] A = {0, 10};
-        smallest_range_ii_910.smallestRangeII(A, 2);
-    }
+//    public static void main(String[] args) {
+//        Smallest_Range_II_910 smallest_range_ii_910 = new Smallest_Range_II_910();
+//        int[] A = {0, 10};
+//        smallest_range_ii_910.smallestRangeII(A, 2);
+//    }
 }

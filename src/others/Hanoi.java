@@ -20,9 +20,9 @@ public class Hanoi {
     }
 
 
-    public static void main(String[] args){
-        Hanoi hanoi = new Hanoi();
-        hanoi.doStep(3,"A","B","C");
-        System.out.println("total step is "+ hanoi.stepCount);
-    }
+//    public static void main(String[] args){
+//        Hanoi hanoi = new Hanoi();
+//        hanoi.doStep(3,"A","B","C");
+//        System.out.println("total step is "+ hanoi.stepCount);
+//    }
 }

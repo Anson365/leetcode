@@ -54,8 +54,8 @@ public class OpenTheLock_752 {
         return -1;
     }
 
-    public static void main(String[] args) {
-        OpenTheLock_752 openTheLock_752 = new OpenTheLock_752();
-        openTheLock_752.openLock(new String[]{"0201","0101","0102","1212","2002"}, "0202");
-    }
+//    public static void main(String[] args) {
+//        OpenTheLock_752 openTheLock_752 = new OpenTheLock_752();
+//        openTheLock_752.openLock(new String[]{"0201","0101","0102","1212","2002"}, "0202");
+//    }
 }

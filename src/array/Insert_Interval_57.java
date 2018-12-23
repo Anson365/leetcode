@@ -39,12 +39,12 @@ public class Insert_Interval_57 {
         return result;
     }
 
-    public static void main(String[] args) {
-        Insert_Interval_57 insert_interval_57 = new Insert_Interval_57();
-        Interval interval = new Interval(1, 5);
-        Interval interval1 = new Interval(2, 7);
-        List<Interval> list = new ArrayList<>();
-        list.add(interval);
-        insert_interval_57.insert(list, interval1);
-    }
+//    public static void main(String[] args) {
+//        Insert_Interval_57 insert_interval_57 = new Insert_Interval_57();
+//        Interval interval = new Interval(1, 5);
+//        Interval interval1 = new Interval(2, 7);
+//        List<Interval> list = new ArrayList<>();
+//        list.add(interval);
+//        insert_interval_57.insert(list, interval1);
+//    }
 }

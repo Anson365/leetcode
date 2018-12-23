@@ -29,10 +29,10 @@ public class WiggleSortII_324 {
         }
     }
 
-    public static void main(String[] args){
-        int[] nums = {1,5,1,1,6,4};
-        WiggleSortII_324 wiggleSortII_324 = new WiggleSortII_324();
-
-        wiggleSortII_324.wiggleSort(nums);
-    }
+//    public static void main(String[] args){
+//        int[] nums = {1,5,1,1,6,4};
+//        WiggleSortII_324 wiggleSortII_324 = new WiggleSortII_324();
+//
+//        wiggleSortII_324.wiggleSort(nums);
+//    }
 }

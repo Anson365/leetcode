@@ -62,10 +62,10 @@ public class Number_Of_Matching_Subsequences_792_temp {
         }
     }
 
-    public static void main(String[] args) {
-        String s = "abcde";
-        String[] words = {"a", "bb", "acd", "ace"};
-        Number_Of_Matching_Subsequences_792_temp number_of_matching_subsequences_792_temp = new Number_Of_Matching_Subsequences_792_temp();
-        number_of_matching_subsequences_792_temp.numMatchingSubseq(s, words);
-    }
+//    public static void main(String[] args) {
+//        String s = "abcde";
+//        String[] words = {"a", "bb", "acd", "ace"};
+//        Number_Of_Matching_Subsequences_792_temp number_of_matching_subsequences_792_temp = new Number_Of_Matching_Subsequences_792_temp();
+//        number_of_matching_subsequences_792_temp.numMatchingSubseq(s, words);
+//    }
 }

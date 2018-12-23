@@ -40,14 +40,14 @@ public class Merge_k_Sorted_Lists_23 {
         return listNode.next;
     }
 
-    public static void main(String[] args) {
-        ListNode listNode = new ListNode(1);
-        ListNode listNode1 = new ListNode(2);
-        ListNode listNode2 = new ListNode(3);
-        ListNode listNode3 = new ListNode(4);
-        listNode.next = listNode2;
-        listNode1.next = listNode3;
-        Merge_k_Sorted_Lists_23 merge_k_sorted_lists_23 = new Merge_k_Sorted_Lists_23();
-        merge_k_sorted_lists_23.mergeKLists(new ListNode[]{listNode, listNode1});
-    }
+//    public static void main(String[] args) {
+//        ListNode listNode = new ListNode(1);
+//        ListNode listNode1 = new ListNode(2);
+//        ListNode listNode2 = new ListNode(3);
+//        ListNode listNode3 = new ListNode(4);
+//        listNode.next = listNode2;
+//        listNode1.next = listNode3;
+//        Merge_k_Sorted_Lists_23 merge_k_sorted_lists_23 = new Merge_k_Sorted_Lists_23();
+//        merge_k_sorted_lists_23.mergeKLists(new ListNode[]{listNode, listNode1});
+//    }
 }

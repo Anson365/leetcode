@@ -34,25 +34,25 @@ public class ReversePartList {
         return tempPoint;
     }
 
-    public static void main(String[] args) {
-        ListNode head = new ListNode(0);
-        ListNode a = new ListNode(1);
-        a.next = new ListNode(2);
-        a.next.next = new ListNode(3);
-        a.next.next.next = new ListNode(4);
-        a.next.next.next.next = new ListNode(5);
-        a.next.next.next.next.next = new ListNode(6);
-        a.next.next.next.next.next.next = new ListNode(7);
-        a.next.next.next.next.next.next.next = new ListNode(8);
-        a.next.next.next.next.next.next.next.next = new ListNode(9);
-
-
-        head.next = reverse(a,4);
-        ListNode h = head.next;
-        while(h!=null){
-            System.out.print(" " + h.val);
-            h = h.next;
-        }
-    }
+//    public static void main(String[] args) {
+//        ListNode head = new ListNode(0);
+//        ListNode a = new ListNode(1);
+//        a.next = new ListNode(2);
+//        a.next.next = new ListNode(3);
+//        a.next.next.next = new ListNode(4);
+//        a.next.next.next.next = new ListNode(5);
+//        a.next.next.next.next.next = new ListNode(6);
+//        a.next.next.next.next.next.next = new ListNode(7);
+//        a.next.next.next.next.next.next.next = new ListNode(8);
+//        a.next.next.next.next.next.next.next.next = new ListNode(9);
+//
+//
+//        head.next = reverse(a,4);
+//        ListNode h = head.next;
+//        while(h!=null){
+//            System.out.print(" " + h.val);
+//            h = h.next;
+//        }
+//    }
 
 }

@@ -40,8 +40,8 @@ public class Reorganize_String_767 {
         return index;
     }
 
-    public static void main(String[] args) {
-        Reorganize_String_767 reorganize_string_767 = new Reorganize_String_767();
-        reorganize_string_767.reorganizeString("vvvlo");
-    }
+//    public static void main(String[] args) {
+//        Reorganize_String_767 reorganize_string_767 = new Reorganize_String_767();
+//        reorganize_string_767.reorganizeString("vvvlo");
+//    }
 }

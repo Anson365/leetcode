@@ -78,25 +78,25 @@ public class LFUCache460 {
         }
     }
 
-    public static void main(String[] args){
-        LFUCache460 lfuCache460 = new LFUCache460(2);
-//        [[3],[2,2],[1,1],[2],[1],[2],[3,3],[4,4],[3],[2],[1],[4]]
-
-        lfuCache460.put(2,1);
-        lfuCache460.put(2,2);
-        int result1 = lfuCache460.get(2);
-//        int result2 =lfuCache460.get(1);
-//        int result3 =lfuCache460.get(2);
-        lfuCache460.put(1,1);
-        lfuCache460.put(4,1);
-//        int result4 = lfuCache460.get(3);
-        int result5 = lfuCache460.get(2);
-//        int result6 = lfuCache460.get(1);
-//        int result7 = lfuCache460.get(4);
-        System.out.print(true);
-
-
-
-    }
+//    public static void main(String[] args){
+//        LFUCache460 lfuCache460 = new LFUCache460(2);
+////        [[3],[2,2],[1,1],[2],[1],[2],[3,3],[4,4],[3],[2],[1],[4]]
+//
+//        lfuCache460.put(2,1);
+//        lfuCache460.put(2,2);
+//        int result1 = lfuCache460.get(2);
+////        int result2 =lfuCache460.get(1);
+////        int result3 =lfuCache460.get(2);
+//        lfuCache460.put(1,1);
+//        lfuCache460.put(4,1);
+////        int result4 = lfuCache460.get(3);
+//        int result5 = lfuCache460.get(2);
+////        int result6 = lfuCache460.get(1);
+////        int result7 = lfuCache460.get(4);
+//        System.out.print(true);
+//
+//
+//
+//    }
 
 }

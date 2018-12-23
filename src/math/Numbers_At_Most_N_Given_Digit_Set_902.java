@@ -29,11 +29,11 @@ public class Numbers_At_Most_N_Given_Digit_Set_902 {
         return dp[0] + sum;
     }
 
-    public static void main(String[] args) {
-        Numbers_At_Most_N_Given_Digit_Set_902 numbers_at_most_n_given_digit_set_902 = new Numbers_At_Most_N_Given_Digit_Set_902();
-        String[] D = {"7"};
-        int N = 8;
-        numbers_at_most_n_given_digit_set_902.atMostNGivenDigitSet(D, N);
-    }
+//    public static void main(String[] args) {
+//        Numbers_At_Most_N_Given_Digit_Set_902 numbers_at_most_n_given_digit_set_902 = new Numbers_At_Most_N_Given_Digit_Set_902();
+//        String[] D = {"7"};
+//        int N = 8;
+//        numbers_at_most_n_given_digit_set_902.atMostNGivenDigitSet(D, N);
+//    }
 
 }

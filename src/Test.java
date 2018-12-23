@@ -34,17 +34,17 @@ public class Test {
         dfs(root.right, new ArrayList<>(cur), list, target - root.val);
     }
 
-    public static void main(String[] args) {
-        Test test = new Test();
-        TreeNode root = new TreeNode(10);
-
-        root.right = new TreeNode(12);
-
-        TreeNode left = new TreeNode(5);
-        left.left = new TreeNode(4);
-        left.right = new TreeNode(7);
-        root.left = left;
-
-        test.FindPath(root, 22);
-    }
+//    public static void main(String[] args) {
+//        Test test = new Test();
+//        TreeNode root = new TreeNode(10);
+//
+//        root.right = new TreeNode(12);
+//
+//        TreeNode left = new TreeNode(5);
+//        left.left = new TreeNode(4);
+//        left.right = new TreeNode(7);
+//        root.left = left;
+//
+//        test.FindPath(root, 22);
+//    }
 }

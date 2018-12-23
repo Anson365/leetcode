@@ -25,9 +25,9 @@ public class Subsets_78 {
     }
 
 
-    public static void main(String[] args) {
-        Subsets_78 subsets_78 = new Subsets_78();
-        int[] nums = {1,2};
-        subsets_78.subsets(nums);
-    }
+//    public static void main(String[] args) {
+//        Subsets_78 subsets_78 = new Subsets_78();
+//        int[] nums = {1,2};
+//        subsets_78.subsets(nums);
+//    }
 }

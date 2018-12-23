@@ -43,7 +43,4 @@ public class EightQueens {
         }
         return true;//遍历玩所有的情况 满足条件
     }
-    public static void main(String[] args){
-        System.out.println(new EightQueens().helper());
-    }
 }

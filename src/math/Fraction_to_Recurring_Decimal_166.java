@@ -58,9 +58,9 @@ public class Fraction_to_Recurring_Decimal_166 {
     //way2 to put the quitient,index into the map and when the map contains
     // the key just insert the( and ) into the result then return
 
-    public static void main(String[] args) {
-        Fraction_to_Recurring_Decimal_166 fraction_to_recurring_decimal_166 = new Fraction_to_Recurring_Decimal_166();
-
-        fraction_to_recurring_decimal_166.fractionToDecimal(-1, -2147483648);
-    }
+//    public static void main(String[] args) {
+//        Fraction_to_Recurring_Decimal_166 fraction_to_recurring_decimal_166 = new Fraction_to_Recurring_Decimal_166();
+//
+//        fraction_to_recurring_decimal_166.fractionToDecimal(-1, -2147483648);
+//    }
 }

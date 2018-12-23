@@ -37,12 +37,12 @@ public class BullsandCows_299 {
         return aCount+"A"+bCount+"B";
     }
 
-    public static void main(String[] args){
-        String secret = "1807";
-        String guess = "7810";
-        BullsandCows_299 bullsandCows_299 = new BullsandCows_299();
-        String str = bullsandCows_299.getHint(secret, guess);
-        System.out.println(str);
-    }
+//    public static void main(String[] args){
+//        String secret = "1807";
+//        String guess = "7810";
+//        BullsandCows_299 bullsandCows_299 = new BullsandCows_299();
+//        String str = bullsandCows_299.getHint(secret, guess);
+//        System.out.println(str);
+//    }
 
 }

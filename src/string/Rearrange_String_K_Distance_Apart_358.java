@@ -39,8 +39,8 @@ public class Rearrange_String_K_Distance_Apart_358 {
         return tempIndex;
     }
 
-    public static void main(String[] args) {
-        Rearrange_String_K_Distance_Apart_358 rearrange_string_k_distance_apart_358 = new Rearrange_String_K_Distance_Apart_358();
-        rearrange_string_k_distance_apart_358.rearrangeString("aaabbcc",3);
-    }
+//    public static void main(String[] args) {
+//        Rearrange_String_K_Distance_Apart_358 rearrange_string_k_distance_apart_358 = new Rearrange_String_K_Distance_Apart_358();
+//        rearrange_string_k_distance_apart_358.rearrangeString("aaabbcc",3);
+//    }
 }

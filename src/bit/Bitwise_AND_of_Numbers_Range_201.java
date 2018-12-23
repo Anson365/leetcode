@@ -14,8 +14,8 @@ public class Bitwise_AND_of_Numbers_Range_201 {
         return m <<= count;
     }
 
-    public static void main(String[] args) {
-        Bitwise_AND_of_Numbers_Range_201 bitwise_and_of_numbers_range_201 = new Bitwise_AND_of_Numbers_Range_201();
-        bitwise_and_of_numbers_range_201.rangeBitwiseAnd(3, 4);
-    }
+//    public static void main(String[] args) {
+//        Bitwise_AND_of_Numbers_Range_201 bitwise_and_of_numbers_range_201 = new Bitwise_AND_of_Numbers_Range_201();
+//        bitwise_and_of_numbers_range_201.rangeBitwiseAnd(3, 4);
+//    }
 }

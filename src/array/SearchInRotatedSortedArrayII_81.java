@@ -29,13 +29,13 @@ public class SearchInRotatedSortedArrayII_81 {
             return binarySearch(nums,target,middleIndex+1,endIndex);
     }
 
-    public static void main(String[] args){
-        int[] nums = {4,5,6,7,0,1,2};
-        int target = 5;
-        SearchInRotatedSortedArrayII_81 searchInRotatedSortedArrayII_81
-                = new SearchInRotatedSortedArrayII_81();
-        Boolean result = searchInRotatedSortedArrayII_81.search(nums,5);
-        return;
-
-    }
+//    public static void main(String[] args){
+//        int[] nums = {4,5,6,7,0,1,2};
+//        int target = 5;
+//        SearchInRotatedSortedArrayII_81 searchInRotatedSortedArrayII_81
+//                = new SearchInRotatedSortedArrayII_81();
+//        Boolean result = searchInRotatedSortedArrayII_81.search(nums,5);
+//        return;
+//
+//    }
 }

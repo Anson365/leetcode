@@ -78,10 +78,10 @@ public class Concatenated_Words_472 {
         }
     }
 
-    public static void main(String[] args) {
-        Concatenated_Words_472 concatenated_words_472 = new Concatenated_Words_472();
-        concatenated_words_472.findAllConcatenateWordsInADict(new String[]{"a", "b"});
-    }
+//    public static void main(String[] args) {
+//        Concatenated_Words_472 concatenated_words_472 = new Concatenated_Words_472();
+//        concatenated_words_472.findAllConcatenateWordsInADict(new String[]{"a", "b"});
+//    }
 }
 
 

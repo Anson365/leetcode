@@ -26,10 +26,10 @@ public class ConvertSortedArray2BinarySearchTree_108 {
         return leafRoot;
     }
 
-    public static void main(String[] args){
-        ConvertSortedArray2BinarySearchTree_108 convertSortedArray2BinarySearchTree_108
-                = new ConvertSortedArray2BinarySearchTree_108();
-        int[] nums = {1,2,3,4};
-        convertSortedArray2BinarySearchTree_108.sortedArrayToBST(nums);
-    }
+//    public static void main(String[] args){
+//        ConvertSortedArray2BinarySearchTree_108 convertSortedArray2BinarySearchTree_108
+//                = new ConvertSortedArray2BinarySearchTree_108();
+//        int[] nums = {1,2,3,4};
+//        convertSortedArray2BinarySearchTree_108.sortedArrayToBST(nums);
+//    }
 }

@@ -48,10 +48,10 @@ public class Find_the_Duplicate_Number_287 {
         return low;
     }
 
-    public static void main(String[] args) {
-        Find_the_Duplicate_Number_287 find_the_duplicate_number_287 = new Find_the_Duplicate_Number_287();
-        int[] array = {2,2,2,2,2};
-        int result = find_the_duplicate_number_287.findDuplicate(array);
-        System.out.println(result);
-    }
+//    public static void main(String[] args) {
+//        Find_the_Duplicate_Number_287 find_the_duplicate_number_287 = new Find_the_Duplicate_Number_287();
+//        int[] array = {2,2,2,2,2};
+//        int result = find_the_duplicate_number_287.findDuplicate(array);
+//        System.out.println(result);
+//    }
 }

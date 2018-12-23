@@ -39,13 +39,13 @@ public class ExpressionAddOperators_282 {
     }
 
 
-    public static void main(String[] args){
-        String num = "105";
-        int val = 5;
-        ExpressionAddOperators_282 expressionAddOperators_282 = new ExpressionAddOperators_282();
-        List<String> result = expressionAddOperators_282.addOperators(num,val);
-        return;
-    }
+//    public static void main(String[] args){
+//        String num = "105";
+//        int val = 5;
+//        ExpressionAddOperators_282 expressionAddOperators_282 = new ExpressionAddOperators_282();
+//        List<String> result = expressionAddOperators_282.addOperators(num,val);
+//        return;
+//    }
 
 
 }

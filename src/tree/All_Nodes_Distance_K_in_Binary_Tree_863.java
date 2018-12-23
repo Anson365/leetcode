@@ -90,14 +90,14 @@ public class All_Nodes_Distance_K_in_Binary_Tree_863 {
 
     }
 
-    public static void main(String[] args) {
-        TreeNode treeNode1 = new TreeNode(1);
-        treeNode1.left = new TreeNode(3);
-        treeNode1.right = new TreeNode(2);
-        TreeNode treeNode = new TreeNode(0);
-        treeNode.left = treeNode1;
-
-        All_Nodes_Distance_K_in_Binary_Tree_863 All_Nodes_Distance_K_in_Binary_Tree_863 = new All_Nodes_Distance_K_in_Binary_Tree_863();
-        All_Nodes_Distance_K_in_Binary_Tree_863.distanceK(treeNode, new TreeNode(2), 1);
-    }
+//    public static void main(String[] args) {
+//        TreeNode treeNode1 = new TreeNode(1);
+//        treeNode1.left = new TreeNode(3);
+//        treeNode1.right = new TreeNode(2);
+//        TreeNode treeNode = new TreeNode(0);
+//        treeNode.left = treeNode1;
+//
+//        All_Nodes_Distance_K_in_Binary_Tree_863 All_Nodes_Distance_K_in_Binary_Tree_863 = new All_Nodes_Distance_K_in_Binary_Tree_863();
+//        All_Nodes_Distance_K_in_Binary_Tree_863.distanceK(treeNode, new TreeNode(2), 1);
+//    }
 }

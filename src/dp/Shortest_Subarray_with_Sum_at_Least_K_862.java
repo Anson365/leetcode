@@ -27,9 +27,9 @@ public class Shortest_Subarray_with_Sum_at_Least_K_862 {
         return result <= A.length ? result : -1;
     }
 
-    public static void main(String[] args) {
-        Shortest_Subarray_with_Sum_at_Least_K_862 shortest
-                = new Shortest_Subarray_with_Sum_at_Least_K_862();
-        shortest.shortestSubarray(new int[]{84,-37,32,40,95}, 167);
-    }
+//    public static void main(String[] args) {
+//        Shortest_Subarray_with_Sum_at_Least_K_862 shortest
+//                = new Shortest_Subarray_with_Sum_at_Least_K_862();
+//        shortest.shortestSubarray(new int[]{84,-37,32,40,95}, 167);
+//    }
 }

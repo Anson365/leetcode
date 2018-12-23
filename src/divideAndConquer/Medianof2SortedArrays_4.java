@@ -58,10 +58,10 @@ public class Medianof2SortedArrays_4 {
         return result;
     }
 
-    public static void main(String[] args){
-        int[] nums1 = {2};
-        int[] nums2 = {1,3};
-        double result = new Medianof2SortedArrays_4().findMedianSortedArrays(nums1,nums2);
-        return;
-    }
+//    public static void main(String[] args){
+//        int[] nums1 = {2};
+//        int[] nums2 = {1,3};
+//        double result = new Medianof2SortedArrays_4().findMedianSortedArrays(nums1,nums2);
+//        return;
+//    }
 }

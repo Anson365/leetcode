@@ -19,8 +19,8 @@ public class Maximum_Product_Subarray_152 {
         return max;
     }
 
-    public static void main(String[] args) {
-        Maximum_Product_Subarray_152 maximum_product_subarray_152 = new Maximum_Product_Subarray_152();
-        maximum_product_subarray_152.maxProduct(new int[]{2,3,-2,4});
-    }
+//    public static void main(String[] args) {
+//        Maximum_Product_Subarray_152 maximum_product_subarray_152 = new Maximum_Product_Subarray_152();
+//        maximum_product_subarray_152.maxProduct(new int[]{2,3,-2,4});
+//    }
 }

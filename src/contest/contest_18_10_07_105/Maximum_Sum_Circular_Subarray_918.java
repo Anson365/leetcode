@@ -25,8 +25,8 @@ public class Maximum_Sum_Circular_Subarray_918 {
         return maxItem < 0 ? maxItem : Math.max(max, sum - min);
     }
 
-    public static void main(String[] args) {
-        Maximum_Sum_Circular_Subarray_918 maximum_sum_circular_subarray_918 = new Maximum_Sum_Circular_Subarray_918();
-        maximum_sum_circular_subarray_918.maxSubarraySumCircular(new int[]{5, -2, 5});
-    }
+//    public static void main(String[] args) {
+//        Maximum_Sum_Circular_Subarray_918 maximum_sum_circular_subarray_918 = new Maximum_Sum_Circular_Subarray_918();
+//        maximum_sum_circular_subarray_918.maxSubarraySumCircular(new int[]{5, -2, 5});
+//    }
 }

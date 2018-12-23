@@ -32,9 +32,9 @@ public class FindAllDuplicatesInAnArray_442 {
         return new ArrayList<Integer>(set);
     }
 
-    public static void main(String[] args){
-        int[] nums = {4,3,2,7,8,2,3,1};
-        FindAllDuplicatesInAnArray_442 findAllDuplicatesInAnArray_442 = new FindAllDuplicatesInAnArray_442();
-        findAllDuplicatesInAnArray_442.findDuplicates(nums);
-    }
+//    public static void main(String[] args){
+//        int[] nums = {4,3,2,7,8,2,3,1};
+//        FindAllDuplicatesInAnArray_442 findAllDuplicatesInAnArray_442 = new FindAllDuplicatesInAnArray_442();
+//        findAllDuplicatesInAnArray_442.findDuplicates(nums);
+//    }
 }

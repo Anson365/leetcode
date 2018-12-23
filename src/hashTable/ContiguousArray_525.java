@@ -28,10 +28,10 @@ public class ContiguousArray_525 {
         return maxLength;
     }
 
-    public static void main(String[] args){
-        int[] nums = {0,1,0,1,0};
-        ContiguousArray_525 contiguousArray_525 = new ContiguousArray_525();
-        int length = contiguousArray_525.findMaxLength(nums);
-        return;
-    }
+//    public static void main(String[] args){
+//        int[] nums = {0,1,0,1,0};
+//        ContiguousArray_525 contiguousArray_525 = new ContiguousArray_525();
+//        int length = contiguousArray_525.findMaxLength(nums);
+//        return;
+//    }
 }

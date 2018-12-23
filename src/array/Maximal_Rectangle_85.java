@@ -40,9 +40,9 @@ public class Maximal_Rectangle_85 {
         return max;
     }
 
-    public static void main(String[] args) {
-        Maximal_Rectangle_85 maximal_rectangle_85 = new Maximal_Rectangle_85();
-        char[][] matrix = {{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}};
-        maximal_rectangle_85.maximalRectangle(matrix);
-    }
+//    public static void main(String[] args) {
+//        Maximal_Rectangle_85 maximal_rectangle_85 = new Maximal_Rectangle_85();
+//        char[][] matrix = {{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}};
+//        maximal_rectangle_85.maximalRectangle(matrix);
+//    }
 }

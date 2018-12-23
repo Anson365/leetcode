@@ -30,8 +30,8 @@ public class Valid_Parenthesis_String_678 {
         return count == 0;
     }
 
-    public static void main(String[] args) {
-        Valid_Parenthesis_String_678 valid_parenthesis_string_678 = new Valid_Parenthesis_String_678();
-        valid_parenthesis_string_678.checkValidString("()");
-    }
+//    public static void main(String[] args) {
+//        Valid_Parenthesis_String_678 valid_parenthesis_string_678 = new Valid_Parenthesis_String_678();
+//        valid_parenthesis_string_678.checkValidString("()");
+//    }
 }

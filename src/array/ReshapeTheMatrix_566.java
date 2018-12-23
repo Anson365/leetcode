@@ -29,10 +29,10 @@ public class ReshapeTheMatrix_566 {
         return result;
     }
 
-    public static void main(String[] args){
-        ReshapeTheMatrix_566 reshapeTheMatrix_566 = new ReshapeTheMatrix_566();
-        int[][] metrix = {{1,2},{3,4}};
-
-        reshapeTheMatrix_566.matrixReshape(metrix,1,4);
-    }
+//    public static void main(String[] args){
+//        ReshapeTheMatrix_566 reshapeTheMatrix_566 = new ReshapeTheMatrix_566();
+//        int[][] metrix = {{1,2},{3,4}};
+//
+//        reshapeTheMatrix_566.matrixReshape(metrix,1,4);
+//    }
 }

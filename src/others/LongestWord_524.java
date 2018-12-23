@@ -38,17 +38,17 @@ public class LongestWord_524 {
         return true;
     }
 
-    public static void main(String[] args){
-        LongestWord_524 longestWord_524 = new LongestWord_524();
-        List<String> s = new ArrayList<String>();
-//        s.add("ale");
-//        s.add("apple");
-//        s.add("monkey");
-//        s.add("plea");
-        s.add("aaa");
-        s.add("aa");
-        s.add("a");
-        String result = longestWord_524.findLongestWord("aaa",s);
-        System.out.println(result);
-    }
+//    public static void main(String[] args){
+//        LongestWord_524 longestWord_524 = new LongestWord_524();
+//        List<String> s = new ArrayList<String>();
+////        s.add("ale");
+////        s.add("apple");
+////        s.add("monkey");
+////        s.add("plea");
+//        s.add("aaa");
+//        s.add("aa");
+//        s.add("a");
+//        String result = longestWord_524.findLongestWord("aaa",s);
+//        System.out.println(result);
+//    }
 }

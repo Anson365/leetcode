@@ -39,9 +39,9 @@ public class ReconstructItinerary_332 {
     }
 
 
-    public static void main(String[] args){
-        String[][] tickets = {{"JFK","KUL"},{"JFK","NRT"},{"NRT","JFK"}};
-        List<String> result = new ReconstructItinerary_332().findItinerary(tickets);
-        return;
-    }
+//    public static void main(String[] args){
+//        String[][] tickets = {{"JFK","KUL"},{"JFK","NRT"},{"NRT","JFK"}};
+//        List<String> result = new ReconstructItinerary_332().findItinerary(tickets);
+//        return;
+//    }
 }

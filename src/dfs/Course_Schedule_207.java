@@ -36,10 +36,10 @@ public class Course_Schedule_207 {
         return courseSet.size() <= numCourses;
     }
 
-    public static void main(String[] args) {
-        int[][] temp = {{1,0},{2,0},{0,2}};
-        int num = 3;
-        Course_Schedule_207 course_schedule_207 = new Course_Schedule_207();
-        course_schedule_207.canFinish(3, temp);
-    }
+//    public static void main(String[] args) {
+//        int[][] temp = {{1,0},{2,0},{0,2}};
+//        int num = 3;
+//        Course_Schedule_207 course_schedule_207 = new Course_Schedule_207();
+//        course_schedule_207.canFinish(3, temp);
+//    }
 }

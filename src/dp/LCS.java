@@ -21,10 +21,10 @@ public class LCS {
     }
 
 
-    public static void main(String[] args){
-        LCS lcs = new LCS();
-        String a = "asdfasdf";
-        String b = "asdfkksndsdf";
-        System.out.println(lcs.doLCS(a,b));
-    }
+//    public static void main(String[] args){
+//        LCS lcs = new LCS();
+//        String a = "asdfasdf";
+//        String b = "asdfkksndsdf";
+//        System.out.println(lcs.doLCS(a,b));
+//    }
 }

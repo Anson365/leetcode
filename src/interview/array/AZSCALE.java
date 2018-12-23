@@ -17,9 +17,9 @@ public class AZSCALE {
         return result;
     }
 
-    public static void main(String[] args){
-        String az = "BB";
-        AZSCALE azscale = new AZSCALE();
-        System.out.println(azscale.helper(az));
-    }
+//    public static void main(String[] args){
+//        String az = "BB";
+//        AZSCALE azscale = new AZSCALE();
+//        System.out.println(azscale.helper(az));
+//    }
 }

@@ -43,10 +43,10 @@ public class GasStation_134 {
     }
 
 
-    public static void main(String[] args){
-        int[] gas = {1,2,3,3},cost = {2,1,5,1};
-        GasStation_134 gasStation_134 = new GasStation_134();
-        int result = gasStation_134.canCompleteCircuit(gas,cost);
-        return;
-    }
+//    public static void main(String[] args){
+//        int[] gas = {1,2,3,3},cost = {2,1,5,1};
+//        GasStation_134 gasStation_134 = new GasStation_134();
+//        int result = gasStation_134.canCompleteCircuit(gas,cost);
+//        return;
+//    }
 }

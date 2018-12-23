@@ -58,9 +58,9 @@ public class Set_Matrix_Zeroes_73 {
         }
     }
 
-    public static void main(String[] args) {
-        Set_Matrix_Zeroes_73 set_matrix_zeroes_73 = new Set_Matrix_Zeroes_73();
-        int[][] temp = new int[][]{{0,1,2,0}, {3,4,5,2}, {1,3,1,5}};
-        set_matrix_zeroes_73.setZeroes(temp);
-    }
+//    public static void main(String[] args) {
+//        Set_Matrix_Zeroes_73 set_matrix_zeroes_73 = new Set_Matrix_Zeroes_73();
+//        int[][] temp = new int[][]{{0,1,2,0}, {3,4,5,2}, {1,3,1,5}};
+//        set_matrix_zeroes_73.setZeroes(temp);
+//    }
 }

@@ -20,11 +20,11 @@ public class ShortestUnsortedContinuousSubarray_581 {
         }
         return end-start+1;
     }
-    public static void main(String[] args){
-        int[] nums = {1,2,3,4};
-        ShortestUnsortedContinuousSubarray_581 shortestUnsortedContinuousSubarray_581
-                = new ShortestUnsortedContinuousSubarray_581();
-        int result = shortestUnsortedContinuousSubarray_581.findUnsortedSubarray(nums);
-        System.out.print(true);
-    }
+//    public static void main(String[] args){
+//        int[] nums = {1,2,3,4};
+//        ShortestUnsortedContinuousSubarray_581 shortestUnsortedContinuousSubarray_581
+//                = new ShortestUnsortedContinuousSubarray_581();
+//        int result = shortestUnsortedContinuousSubarray_581.findUnsortedSubarray(nums);
+//        System.out.print(true);
+//    }
 }

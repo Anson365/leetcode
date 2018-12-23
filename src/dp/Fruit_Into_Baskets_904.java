@@ -30,9 +30,9 @@ public class Fruit_Into_Baskets_904 {
         }
         return Math.max(max, temp);
     }
-    public static void main(String[] args) {
-        Fruit_Into_Baskets_904 fruit_into_baskets_904 = new Fruit_Into_Baskets_904();
-        int[] temp = {0,1,2,2};
-        fruit_into_baskets_904.totalFruit(temp);
-    }
+//    public static void main(String[] args) {
+//        Fruit_Into_Baskets_904 fruit_into_baskets_904 = new Fruit_Into_Baskets_904();
+//        int[] temp = {0,1,2,2};
+//        fruit_into_baskets_904.totalFruit(temp);
+//    }
 }

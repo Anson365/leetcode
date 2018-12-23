@@ -38,18 +38,18 @@ public class Merge_Two_Sorted_Lists_21 {
         return result.next;
     }
 
-    public static void main(String[] args) {
-        ListNode l1 = new ListNode(1);
-        ListNode l2 = new ListNode(2);
-        ListNode l3 = new ListNode(4);
-        ListNode l4 = new ListNode(1);
-        ListNode l5 = new ListNode(3);
-        ListNode l6 = new ListNode(4);
-        l1.next = l2;
-        l2.next = l3;
-        l4.next = l5;
-        l5.next = l6;
-        Merge_Two_Sorted_Lists_21 merge_two_sorted_lists_21 = new Merge_Two_Sorted_Lists_21();
-        merge_two_sorted_lists_21.mergeTwoLists(l1, l4);
-    }
+//    public static void main(String[] args) {
+//        ListNode l1 = new ListNode(1);
+//        ListNode l2 = new ListNode(2);
+//        ListNode l3 = new ListNode(4);
+//        ListNode l4 = new ListNode(1);
+//        ListNode l5 = new ListNode(3);
+//        ListNode l6 = new ListNode(4);
+//        l1.next = l2;
+//        l2.next = l3;
+//        l4.next = l5;
+//        l5.next = l6;
+//        Merge_Two_Sorted_Lists_21 merge_two_sorted_lists_21 = new Merge_Two_Sorted_Lists_21();
+//        merge_two_sorted_lists_21.mergeTwoLists(l1, l4);
+//    }
 }

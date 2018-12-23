@@ -51,10 +51,10 @@ public class CountofSmallerNumbersAfterSelf_315 {
     }
 
 
-    public static void main(String[] args){
-        int[] nums = {2,1,1,1,2,15,3,3,15,0};
-        CountofSmallerNumbersAfterSelf_315 c = new CountofSmallerNumbersAfterSelf_315();
-        List<Integer> result = c.countSmaller(nums);
-        return;
-    }
+//    public static void main(String[] args){
+//        int[] nums = {2,1,1,1,2,15,3,3,15,0};
+//        CountofSmallerNumbersAfterSelf_315 c = new CountofSmallerNumbersAfterSelf_315();
+//        List<Integer> result = c.countSmaller(nums);
+//        return;
+//    }
 }

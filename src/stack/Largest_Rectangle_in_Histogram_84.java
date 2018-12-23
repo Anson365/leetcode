@@ -39,8 +39,8 @@ public class Largest_Rectangle_in_Histogram_84 {
         return maxArea;
     }
 
-    public static void main(String[] args) {
-        Largest_Rectangle_in_Histogram_84 largest_rectangle_in_histogram_84 = new Largest_Rectangle_in_Histogram_84();
-        largest_rectangle_in_histogram_84.largestRectangleArea1(new int[] {2,1,5,6,2,3});
-    }
+//    public static void main(String[] args) {
+//        Largest_Rectangle_in_Histogram_84 largest_rectangle_in_histogram_84 = new Largest_Rectangle_in_Histogram_84();
+//        largest_rectangle_in_histogram_84.largestRectangleArea1(new int[] {2,1,5,6,2,3});
+//    }
 }

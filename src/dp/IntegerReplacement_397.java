@@ -18,9 +18,9 @@ public class IntegerReplacement_397 {
         }
     }
 
-    public static void main(String[] args){
-        IntegerReplacement_397 integerReplacement_397 = new IntegerReplacement_397();
-        int count = integerReplacement_397.integerReplacement(7);
-        return;
-    }
+//    public static void main(String[] args){
+//        IntegerReplacement_397 integerReplacement_397 = new IntegerReplacement_397();
+//        int count = integerReplacement_397.integerReplacement(7);
+//        return;
+//    }
 }

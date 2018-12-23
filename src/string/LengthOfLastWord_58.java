@@ -34,8 +34,8 @@ public class LengthOfLastWord_58 {
         return length - 1 - temp;
     }
 
-    public static void main(String[] args) {
-        LengthOfLastWord_58 lengthOfLastWord_58 = new LengthOfLastWord_58();
-        lengthOfLastWord_58.lengthOfLastWord(" ");
-    }
+//    public static void main(String[] args) {
+//        LengthOfLastWord_58 lengthOfLastWord_58 = new LengthOfLastWord_58();
+//        lengthOfLastWord_58.lengthOfLastWord(" ");
+//    }
 }

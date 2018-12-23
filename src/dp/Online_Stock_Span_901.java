@@ -81,31 +81,31 @@ public class Online_Stock_Span_901 {
     }
 
 
-    public static void main(String[] args) {
-        Online_Stock_Span_901 online_stock_span_901 = new Online_Stock_Span_901();
-        int temp;
-        temp = online_stock_span_901.next(100);
-        System.out.println(temp);
-
-        temp = online_stock_span_901.next(80);
-        System.out.println(temp);
-
-        temp = online_stock_span_901.next(60);
-        System.out.println(temp);
-
-        temp = online_stock_span_901.next(70);
-        System.out.println(temp);
-
-        temp = online_stock_span_901.next(60);
-        System.out.println(temp);
-
-        temp = online_stock_span_901.next(75);
-        System.out.println(temp);
-
-        temp = online_stock_span_901.next(85);
-        System.out.println(temp);
-
-
-
-    }
+//    public static void main(String[] args) {
+//        Online_Stock_Span_901 online_stock_span_901 = new Online_Stock_Span_901();
+//        int temp;
+//        temp = online_stock_span_901.next(100);
+//        System.out.println(temp);
+//
+//        temp = online_stock_span_901.next(80);
+//        System.out.println(temp);
+//
+//        temp = online_stock_span_901.next(60);
+//        System.out.println(temp);
+//
+//        temp = online_stock_span_901.next(70);
+//        System.out.println(temp);
+//
+//        temp = online_stock_span_901.next(60);
+//        System.out.println(temp);
+//
+//        temp = online_stock_span_901.next(75);
+//        System.out.println(temp);
+//
+//        temp = online_stock_span_901.next(85);
+//        System.out.println(temp);
+//
+//
+//
+//    }
 }

@@ -24,8 +24,8 @@ public class CountAndSay_38 {
         return temp;
     }
 
-    public static void main(String[] args) {
-        CountAndSay_38 countAndSay_38 = new CountAndSay_38();
-        countAndSay_38.countAndSay(2);
-    }
+//    public static void main(String[] args) {
+//        CountAndSay_38 countAndSay_38 = new CountAndSay_38();
+//        countAndSay_38.countAndSay(2);
+//    }
 }

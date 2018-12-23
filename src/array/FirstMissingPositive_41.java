@@ -30,10 +30,10 @@ public class FirstMissingPositive_41 {
         }
         return nums.length + 1;
     }
-    public static void main(String[] args){
-        int[] array = {1,3,4,-1};
-        FirstMissingPositive_41 firstMissingPositive_41 = new FirstMissingPositive_41();
-        int result = firstMissingPositive_41.firstMissingPositive(array);
-        System.out.print(true);
-    }
+//    public static void main(String[] args){
+//        int[] array = {1,3,4,-1};
+//        FirstMissingPositive_41 firstMissingPositive_41 = new FirstMissingPositive_41();
+//        int result = firstMissingPositive_41.firstMissingPositive(array);
+//        System.out.print(true);
+//    }
 }

@@ -40,10 +40,10 @@ public class LargestNumber_179 {
         return result.toString();
     }
 
-    public static void main(String[] args){
-        int[] nums = {12,128};
-        LargestNumber_179 largestNumber_179 = new LargestNumber_179();
-        String resullt = largestNumber_179.largestNumber(nums);
-        System.out.println(resullt);
-    }
+//    public static void main(String[] args){
+//        int[] nums = {12,128};
+//        LargestNumber_179 largestNumber_179 = new LargestNumber_179();
+//        String resullt = largestNumber_179.largestNumber(nums);
+//        System.out.println(resullt);
+//    }
 }
