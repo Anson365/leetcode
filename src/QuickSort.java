@@ -27,9 +27,9 @@ public class QuickSort {
     }
 
 
-    public static void main(String[] args){
-        int[] array = {3,23,5,61,2,4,6};
-        QuickSort quickSort = new QuickSort();
-        int[] sorted =  quickSort.doSort(array);
-    }
+//    public static void main(String[] args){
+//        int[] array = {3,23,5,61,2,4,6};
+//        QuickSort quickSort = new QuickSort();
+//        int[] sorted =  quickSort.doSort(array);
+//    }
 }

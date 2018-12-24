@@ -59,8 +59,8 @@ public class AppAnnie_Test4 {
         return result;
     }
 
-    public static void main(String[] args) {
-        AppAnnie_Test4 appAnnie_test4 = new AppAnnie_Test4();
-        appAnnie_test4.solution(3, "1A 2A,12A 12A", "12A");
-    }
+//    public static void main(String[] args) {
+//        AppAnnie_Test4 appAnnie_test4 = new AppAnnie_Test4();
+//        appAnnie_test4.solution(3, "1A 2A,12A 12A", "12A");
+//    }
 }

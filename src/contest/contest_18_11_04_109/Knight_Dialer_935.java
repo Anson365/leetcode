@@ -33,10 +33,10 @@ public class Knight_Dialer_935 {
         return cnt;
     }
 
-    public static void main(String[] args) {
-        Knight_Dialer_935 knightDialer935 = new Knight_Dialer_935();
-        knightDialer935.knightDialer(3);
-
-    }
+//    public static void main(String[] args) {
+//        Knight_Dialer_935 knightDialer935 = new Knight_Dialer_935();
+//        knightDialer935.knightDialer(3);
+//
+//    }
 
 }

@@ -42,10 +42,10 @@ public class RemoveInvalidParentheses_301 {
 
     }
 
-    public static void main(String[] args){
-        String s = "(()(";
-        RemoveInvalidParentheses_301 removeInvalidParentheses_301 = new RemoveInvalidParentheses_301();
-        List<String> result = removeInvalidParentheses_301.removeInvalidParentheses(s);
-        System.out.println(result);
-    }
+//    public static void main(String[] args){
+//        String s = "(()(";
+//        RemoveInvalidParentheses_301 removeInvalidParentheses_301 = new RemoveInvalidParentheses_301();
+//        List<String> result = removeInvalidParentheses_301.removeInvalidParentheses(s);
+//        System.out.println(result);
+//    }
 }

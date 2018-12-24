@@ -57,10 +57,10 @@ public class Minimum_Falling_Path_Sum_931 {
     }
 
 
-    public static void main(String[] args) {
-        Minimum_Falling_Path_Sum_931 minimumFallingPathSum931 = new Minimum_Falling_Path_Sum_931();
-        minimumFallingPathSum931.minFallingPathSum_dfs_force_LTE(new int[][]{{-51,-35,74},{-62,14,-53},{94,61,-10}});
-    }
+//    public static void main(String[] args) {
+//        Minimum_Falling_Path_Sum_931 minimumFallingPathSum931 = new Minimum_Falling_Path_Sum_931();
+//        minimumFallingPathSum931.minFallingPathSum_dfs_force_LTE(new int[][]{{-51,-35,74},{-62,14,-53},{94,61,-10}});
+//    }
 
 
 }

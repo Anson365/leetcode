@@ -35,11 +35,11 @@ public class FriendCircles_547 {
         }
     }
 
-    public static void main(String[] args){
-        FriendCircles_547 friendCircles_547 = new FriendCircles_547();
-        int[][] M = {{1,0,0,1},{0,1,1,0},{0,1,1,1},{1,0,1,1}};
-        int count = friendCircles_547.findCircleNum(M);
-        return;
-    }
+//    public static void main(String[] args){
+//        FriendCircles_547 friendCircles_547 = new FriendCircles_547();
+//        int[][] M = {{1,0,0,1},{0,1,1,0},{0,1,1,1},{1,0,1,1}};
+//        int count = friendCircles_547.findCircleNum(M);
+//        return;
+//    }
 
 }

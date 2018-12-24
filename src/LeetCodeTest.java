@@ -43,16 +43,16 @@ public class LeetCodeTest {
     }
 
 
-    public static void main(String[] args){
-        int[][] array = {{1,2,8,9},{2,4,9,12},{4,7,10,13},{6,8,11,15}};
-        int target = 7;
-        LeetCodeTest leetCodeTest = new LeetCodeTest();
-        Boolean result = leetCodeTest.Find(7,array);
-        System.out.print(true);
-
-        StringBuilder stringBuilder = new StringBuilder();
-        if(stringBuilder!=null) {
-            stringBuilder.toString().replaceAll("\\s", "%20");
-        }
-    }
+//    public static void main(String[] args){
+//        int[][] array = {{1,2,8,9},{2,4,9,12},{4,7,10,13},{6,8,11,15}};
+//        int target = 7;
+//        LeetCodeTest leetCodeTest = new LeetCodeTest();
+//        Boolean result = leetCodeTest.Find(7,array);
+//        System.out.print(true);
+//
+//        StringBuilder stringBuilder = new StringBuilder();
+//        if(stringBuilder!=null) {
+//            stringBuilder.toString().replaceAll("\\s", "%20");
+//        }
+//    }
 }

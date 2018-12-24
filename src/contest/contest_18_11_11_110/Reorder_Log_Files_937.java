@@ -35,8 +35,8 @@ public class Reorder_Log_Files_937 {
         return logs;
     }
 
-    public static void main(String[] args) {
-        Reorder_Log_Files_937 contest1 = new Reorder_Log_Files_937();
-        contest1.reorderLogFiles(new String[] {"a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"});
-    }
+//    public static void main(String[] args) {
+//        Reorder_Log_Files_937 contest1 = new Reorder_Log_Files_937();
+//        contest1.reorderLogFiles(new String[] {"a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"});
+//    }
 }

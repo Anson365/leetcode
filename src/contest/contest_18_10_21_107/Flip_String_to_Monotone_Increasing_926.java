@@ -14,8 +14,8 @@ public class Flip_String_to_Monotone_Increasing_926 {
         return Math.min(flipZeroCount, flipOneCount);
     }
 
-    public static void main(String[] args) {
-        Flip_String_to_Monotone_Increasing_926 flip_string_to_monotone_increasing_926 = new Flip_String_to_Monotone_Increasing_926();
-        flip_string_to_monotone_increasing_926.minFlipsMonoIncr("010110");
-    }
+//    public static void main(String[] args) {
+//        Flip_String_to_Monotone_Increasing_926 flip_string_to_monotone_increasing_926 = new Flip_String_to_Monotone_Increasing_926();
+//        flip_string_to_monotone_increasing_926.minFlipsMonoIncr("010110");
+//    }
 }

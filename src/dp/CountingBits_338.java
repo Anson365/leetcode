@@ -16,9 +16,9 @@ public class CountingBits_338 {
         return result;
     }
 
-    public static void main(String[] args){
-        CountingBits_338 countingBits_338 = new CountingBits_338();
-        int[] nums = countingBits_338.countBits(2);
-        return;
-    }
+//    public static void main(String[] args){
+//        CountingBits_338 countingBits_338 = new CountingBits_338();
+//        int[] nums = countingBits_338.countBits(2);
+//        return;
+//    }
 }

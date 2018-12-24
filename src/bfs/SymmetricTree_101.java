@@ -51,17 +51,17 @@ public class SymmetricTree_101 {
         }
     }
 
-    public static void main(String[] args){
-        TreeNode leave1 = new TreeNode(2);
-        TreeNode leave2 = new TreeNode(3);
-        TreeNode leave3 = new TreeNode(3);
-        TreeNode leave4 = new TreeNode(2);
-        TreeNode leave5 = new TreeNode(1);
-        leave5.left = leave4;
-        leave5.right = leave3;
-        leave4.left=leave2;
-        leave3.left=leave1;
-        Boolean result = new SymmetricTree_101().isSymmetricLDR(leave5);
-    }
+//    public static void main(String[] args){
+//        TreeNode leave1 = new TreeNode(2);
+//        TreeNode leave2 = new TreeNode(3);
+//        TreeNode leave3 = new TreeNode(3);
+//        TreeNode leave4 = new TreeNode(2);
+//        TreeNode leave5 = new TreeNode(1);
+//        leave5.left = leave4;
+//        leave5.right = leave3;
+//        leave4.left=leave2;
+//        leave3.left=leave1;
+//        Boolean result = new SymmetricTree_101().isSymmetricLDR(leave5);
+//    }
 
 }

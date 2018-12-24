@@ -10,8 +10,8 @@ public class PowerofFour_342 {
         }
         return Math.log10(num)/Math.log10(4)%1==0;
     }
-    public static void main(String[] args){
-        PowerofFour_342 powerofFour_342 = new PowerofFour_342();
-        powerofFour_342.isPowerOfFour(8);
-    }
+//    public static void main(String[] args){
+//        PowerofFour_342 powerofFour_342 = new PowerofFour_342();
+//        powerofFour_342.isPowerOfFour(8);
+//    }
 }

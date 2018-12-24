@@ -62,8 +62,8 @@ public class AppAnnie_Test1 {
         return map;
     }
 
-    public static void main(String[] args) {
-        AppAnnie_Test1 appAnnieTest1 = new AppAnnie_Test1();
-        appAnnieTest1.solution("my.song.mp3 11b\ngreatSong.flac 1000b\nnot3.txt 5b\nvideo.mp4 200b\ngame.exe 100b\nmov!e.mkv 10000b");
-    }
+//    public static void main(String[] args) {
+//        AppAnnie_Test1 appAnnieTest1 = new AppAnnie_Test1();
+//        appAnnieTest1.solution("my.song.mp3 11b\ngreatSong.flac 1000b\nnot3.txt 5b\nvideo.mp4 200b\ngame.exe 100b\nmov!e.mkv 10000b");
+//    }
 }

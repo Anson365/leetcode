@@ -15,8 +15,8 @@ public class Shortest_Palindrome_214 {
     }
 
 
-    public static void main(String[] args) {
-        Shortest_Palindrome_214 shortest_palindrome_214 = new Shortest_Palindrome_214();
-        shortest_palindrome_214.shortestPalindrome("aacecaaa");
-    }
+//    public static void main(String[] args) {
+//        Shortest_Palindrome_214 shortest_palindrome_214 = new Shortest_Palindrome_214();
+//        shortest_palindrome_214.shortestPalindrome("aacecaaa");
+//    }
 }

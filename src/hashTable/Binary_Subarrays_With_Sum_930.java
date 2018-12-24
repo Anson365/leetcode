@@ -24,8 +24,8 @@ public class Binary_Subarrays_With_Sum_930 {
         return result;
     }
 
-    public static void main(String[] args) {
-        Binary_Subarrays_With_Sum_930 binary_subarrays_with_sum_930 = new Binary_Subarrays_With_Sum_930();
-        binary_subarrays_with_sum_930.numSubarraysWithSum(new int[]{1,0,1,0,1}, 2);
-    }
+//    public static void main(String[] args) {
+//        Binary_Subarrays_With_Sum_930 binary_subarrays_with_sum_930 = new Binary_Subarrays_With_Sum_930();
+//        binary_subarrays_with_sum_930.numSubarraysWithSum(new int[]{1,0,1,0,1}, 2);
+//    }
 }

@@ -24,11 +24,11 @@ public class LongestPalindrome_409 {
             return hashSet.isEmpty()?count*2:count*2+1;
         }
 
-    public static void main(String[] s){
-        String str = "abccccdd";
-        LongestPalindrome_409 longestPalindrome_409 = new LongestPalindrome_409();
-        int temp = longestPalindrome_409.longestPalindrome(str);
-        System.out.print(true);
-
-    }
+//    public static void main(String[] s){
+//        String str = "abccccdd";
+//        LongestPalindrome_409 longestPalindrome_409 = new LongestPalindrome_409();
+//        int temp = longestPalindrome_409.longestPalindrome(str);
+//        System.out.print(true);
+//
+//    }
 }

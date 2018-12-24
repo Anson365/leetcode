@@ -38,11 +38,11 @@ public class ContinuousSubarraySum_523 {
         return false;
     }
 
-    public static void main(String[] args){
-        int[] nums = {0,0,1};
-        int k = 0;
-        ContinuousSubarraySum_523 continu = new ContinuousSubarraySum_523();
-        Boolean result = continu.checkSubarraySum(nums,k);
-        return;
-    }
+//    public static void main(String[] args){
+//        int[] nums = {0,0,1};
+//        int k = 0;
+//        ContinuousSubarraySum_523 continu = new ContinuousSubarraySum_523();
+//        Boolean result = continu.checkSubarraySum(nums,k);
+//        return;
+//    }
 }

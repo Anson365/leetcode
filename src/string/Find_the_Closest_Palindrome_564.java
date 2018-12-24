@@ -45,9 +45,9 @@ public class Find_the_Closest_Palindrome_564 {
         return Long.valueOf(resultStr);
     }
 
-    public static void main(String[] args) {
-        Find_the_Closest_Palindrome_564 find_the_closest_palindrome_564 = new Find_the_Closest_Palindrome_564();
-        find_the_closest_palindrome_564.nearestPalindromic("88887");
-    }
+//    public static void main(String[] args) {
+//        Find_the_Closest_Palindrome_564 find_the_closest_palindrome_564 = new Find_the_Closest_Palindrome_564();
+//        find_the_closest_palindrome_564.nearestPalindromic("88887");
+//    }
 
 }

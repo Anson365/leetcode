@@ -34,9 +34,9 @@ public class Best_Time_to_Buy_and_Sell_Stock_IV_188 {
     }
 
 
-    public static void main(String[] args) {
-        Best_Time_to_Buy_and_Sell_Stock_IV_188 best_time_to_buy_and_sell_stock_iv_188
-                = new Best_Time_to_Buy_and_Sell_Stock_IV_188();
-        best_time_to_buy_and_sell_stock_iv_188.maxProfit(2, new int[]{6,1,3,2,4,7});
-    }
+//    public static void main(String[] args) {
+//        Best_Time_to_Buy_and_Sell_Stock_IV_188 best_time_to_buy_and_sell_stock_iv_188
+//                = new Best_Time_to_Buy_and_Sell_Stock_IV_188();
+//        best_time_to_buy_and_sell_stock_iv_188.maxProfit(2, new int[]{6,1,3,2,4,7});
+//    }
 }

@@ -19,8 +19,8 @@ public class SmallestRangeII_910 {
         return res;
     }
 
-    public static void main(String[] args) {
-        SmallestRangeII_910 smallestRangeII_910 = new SmallestRangeII_910();
-        smallestRangeII_910.smallestRangeII(new int[]{0, 10}, 6);
-    }
+//    public static void main(String[] args) {
+//        SmallestRangeII_910 smallestRangeII_910 = new SmallestRangeII_910();
+//        smallestRangeII_910.smallestRangeII(new int[]{0, 10}, 6);
+//    }
 }

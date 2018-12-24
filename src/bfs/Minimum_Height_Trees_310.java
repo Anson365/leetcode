@@ -94,8 +94,8 @@ public class Minimum_Height_Trees_310 {
         return leaves;
     }
 
-    public static void main(String[] args) {
-        Minimum_Height_Trees_310 minimum_height_trees_310 = new Minimum_Height_Trees_310();
-        minimum_height_trees_310.findMinHeightTrees(4, new int[][]{{1, 0}, {1, 2}, {1, 3}});
-    }
+//    public static void main(String[] args) {
+//        Minimum_Height_Trees_310 minimum_height_trees_310 = new Minimum_Height_Trees_310();
+//        minimum_height_trees_310.findMinHeightTrees(4, new int[][]{{1, 0}, {1, 2}, {1, 3}});
+//    }
 }

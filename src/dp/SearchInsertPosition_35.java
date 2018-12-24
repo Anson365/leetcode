@@ -25,11 +25,11 @@ public class SearchInsertPosition_35 {
         else  return end;
     }
 
-   public static void main(String[] args){
-       int[] nums = {1,3,5,6};
-       int target = 2;
-       SearchInsertPosition_35 searchInsertPosition_35 = new SearchInsertPosition_35();
-       int result = searchInsertPosition_35.searchInsert(nums,target);
-       return;
-   }
+//   public static void main(String[] args){
+//       int[] nums = {1,3,5,6};
+//       int target = 2;
+//       SearchInsertPosition_35 searchInsertPosition_35 = new SearchInsertPosition_35();
+//       int result = searchInsertPosition_35.searchInsert(nums,target);
+//       return;
+//   }
 }

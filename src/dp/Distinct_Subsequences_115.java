@@ -22,8 +22,8 @@ public class Distinct_Subsequences_115 {
         return dp[tlength][slength];
     }
 
-    public static void main(String[] args) {
-        Distinct_Subsequences_115 distinct_subsequences_115 = new Distinct_Subsequences_115();
-        distinct_subsequences_115.numDistinct("babgbag", "bag");
-    }
+//    public static void main(String[] args) {
+//        Distinct_Subsequences_115 distinct_subsequences_115 = new Distinct_Subsequences_115();
+//        distinct_subsequences_115.numDistinct("babgbag", "bag");
+//    }
 }

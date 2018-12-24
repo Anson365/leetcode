@@ -18,10 +18,10 @@ public class MaximumSubarray_53 {
         return max;
     }
 
-    public static void main(String[] args){
-        int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
-        MaximumSubarray_53 maximumSubarray_53 = new MaximumSubarray_53();
-        int reuslt = maximumSubarray_53.maxSubArray(nums);
-        return;
-    }
+//    public static void main(String[] args){
+//        int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
+//        MaximumSubarray_53 maximumSubarray_53 = new MaximumSubarray_53();
+//        int reuslt = maximumSubarray_53.maxSubArray(nums);
+//        return;
+//    }
 }

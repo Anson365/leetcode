@@ -78,11 +78,11 @@ public class LRUCache146 {
         }
     }
 
-    public static void main(String[] args) {
-        LRUCache146 lruCache146 = new LRUCache146(2);
-        lruCache146.put(2,6);
-        lruCache146.put(1,5);
-        lruCache146.put(1,2);
-        lruCache146.get(2);
-    }
+//    public static void main(String[] args) {
+//        LRUCache146 lruCache146 = new LRUCache146(2);
+//        lruCache146.put(2,6);
+//        lruCache146.put(1,5);
+//        lruCache146.put(1,2);
+//        lruCache146.get(2);
+//    }
 }

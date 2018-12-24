@@ -15,7 +15,7 @@ public class GCTest {
         allocation4 = new byte[2 * OneM];
     }
 
-    public static void main(String[] args) {
-        GCTest.testAllocation();
-    }
+//    public static void main(String[] args) {
+//        GCTest.testAllocation();
+//    }
 }

@@ -100,8 +100,8 @@ public class Array_Of_Doubled_Pairs_954 {
     }
 
 
-    public static void main(String[] args) {
-        Array_Of_Doubled_Pairs_954 arrayOfDoubledPairs954 = new Array_Of_Doubled_Pairs_954();
-        arrayOfDoubledPairs954.canReorderDoubled(new int[]{4,2,4,4,2,-4,0,-2,0,4});
-    }
+//    public static void main(String[] args) {
+//        Array_Of_Doubled_Pairs_954 arrayOfDoubledPairs954 = new Array_Of_Doubled_Pairs_954();
+//        arrayOfDoubledPairs954.canReorderDoubled(new int[]{4,2,4,4,2,-4,0,-2,0,4});
+//    }
 }

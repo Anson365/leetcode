@@ -37,25 +37,25 @@ public class TreeString {
         helper(root.right, list);
     }
 
-    public static void main(String[] args) {
-        TreeNode root = new TreeNode("+");
-        TreeNode left = new TreeNode("a");
-        TreeNode rightRoot = new TreeNode("/");
-        TreeNode rootLeft = new TreeNode("-");
-        TreeNode rootRight = new TreeNode("d");
-        TreeNode leftChild = new TreeNode("b");
-        TreeNode rightChild = new TreeNode("c");
-
-        root.left = left;
-        root.right = rightRoot;
-        rightRoot.left = rootLeft;
-        rightRoot.right = rootRight;
-        rootLeft.left = leftChild;
-        rootLeft.right = rightChild;
-
-        TreeString treeString = new TreeString();
-        treeString.printStr(root);
-    }
+//    public static void main(String[] args) {
+//        TreeNode root = new TreeNode("+");
+//        TreeNode left = new TreeNode("a");
+//        TreeNode rightRoot = new TreeNode("/");
+//        TreeNode rootLeft = new TreeNode("-");
+//        TreeNode rootRight = new TreeNode("d");
+//        TreeNode leftChild = new TreeNode("b");
+//        TreeNode rightChild = new TreeNode("c");
+//
+//        root.left = left;
+//        root.right = rightRoot;
+//        rightRoot.left = rootLeft;
+//        rightRoot.right = rootRight;
+//        rootLeft.left = leftChild;
+//        rootLeft.right = rightChild;
+//
+//        TreeString treeString = new TreeString();
+//        treeString.printStr(root);
+//    }
 
 
 
