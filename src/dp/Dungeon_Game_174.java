@@ -27,9 +27,9 @@ public class Dungeon_Game_174 {
     }
 
 
-    public static void main(String[] args) {
-        Dungeon_Game_174 dungeon_game_174 = new Dungeon_Game_174();
-        int[][] dungeon =  new int[][]{{-2, -3, 3}, {-5, -10, 1}, {10, 30, -5}};
-        dungeon_game_174.calculateMinimumHP(dungeon);
-    }
+//    public static void main(String[] args) {
+//        Dungeon_Game_174 dungeon_game_174 = new Dungeon_Game_174();
+//        int[][] dungeon =  new int[][]{{-2, -3, 3}, {-5, -10, 1}, {10, 30, -5}};
+//        dungeon_game_174.calculateMinimumHP(dungeon);
+//    }
 }
