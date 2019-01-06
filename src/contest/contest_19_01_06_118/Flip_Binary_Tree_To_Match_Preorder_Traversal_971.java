@@ -43,11 +43,11 @@ public class Flip_Binary_Tree_To_Match_Preorder_Traversal_971 {
         return -1;
     }
 
-    public static void main(String[] args) {
-        Flip_Binary_Tree_To_Match_Preorder_Traversal_971 contest3 = new Flip_Binary_Tree_To_Match_Preorder_Traversal_971();
-        TreeNode treeNode = new TreeNode(1);
-        treeNode.left = new TreeNode(2);
-        treeNode.left.left = new TreeNode(3);
-        contest3.flipMatchVoyage(treeNode, new int[]{2, 1});
-    }
+//    public static void main(String[] args) {
+//        Flip_Binary_Tree_To_Match_Preorder_Traversal_971 contest3 = new Flip_Binary_Tree_To_Match_Preorder_Traversal_971();
+//        TreeNode treeNode = new TreeNode(1);
+//        treeNode.left = new TreeNode(2);
+//        treeNode.left.left = new TreeNode(3);
+//        contest3.flipMatchVoyage(treeNode, new int[]{2, 1});
+//    }
 }

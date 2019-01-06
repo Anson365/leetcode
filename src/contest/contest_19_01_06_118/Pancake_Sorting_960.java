@@ -41,8 +41,8 @@ public class Pancake_Sorting_960 {
         }
     }
 
-    public static void main(String[] args) {
-        Pancake_Sorting_960 pancakeSorting960 = new Pancake_Sorting_960();
-        pancakeSorting960.pancakeSort(new int[]{3,2,4,1});
-    }
+//    public static void main(String[] args) {
+//        Pancake_Sorting_960 pancakeSorting960 = new Pancake_Sorting_960();
+//        pancakeSorting960.pancakeSort(new int[]{3,2,4,1});
+//    }
 }
