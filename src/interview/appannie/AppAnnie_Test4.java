@@ -1,4 +1,4 @@
-package interview;
+package interview.appannie;
 
 import java.util.*;
 import java.util.stream.Collectors;

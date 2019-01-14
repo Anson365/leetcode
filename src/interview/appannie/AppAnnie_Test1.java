@@ -1,4 +1,4 @@
-package interview;
+package interview.appannie;
 
 import java.util.HashMap;
 import java.util.Map;

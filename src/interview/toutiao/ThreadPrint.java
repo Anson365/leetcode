@@ -1,4 +1,4 @@
-package toutiao;
+package interview.toutiao;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;

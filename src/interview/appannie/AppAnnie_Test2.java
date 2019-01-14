@@ -1,4 +1,4 @@
-package interview;
+package interview.appannie;
 
 /**
  * Created by Anson Luo(Anson.Luo@pegasus.ae) on 11/12/18.

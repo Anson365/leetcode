@@ -1,4 +1,4 @@
-package toutiao;
+package interview.toutiao;
 
 import java.util.ArrayList;
 import java.util.List;
