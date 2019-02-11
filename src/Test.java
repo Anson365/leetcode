@@ -34,7 +34,17 @@ public class Test {
         dfs(root.right, new ArrayList<>(cur), list, target - root.val);
     }
 
-//    public static void main(String[] args) {
+    public static void main(String[] args) {
+        System.out.println(doSomething());
+    }
+
+    private static String doSomething() {
+        System.out.println("beigin");
+        Thread.currentThread().interrupt();
+        return "test";
+    }
+
+    //    public static void main(String[] args) {
 //        Test test = new Test();
 //        TreeNode root = new TreeNode(10);
 //
