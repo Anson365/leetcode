@@ -10,6 +10,7 @@ import BaseConstruction.TreeNode;
  * Created on 2019-02-17
  */
 public class Cousins_in_Binary_Tree_993 {
+
     public boolean isCousins(TreeNode root, int x, int y) {
         Map<Integer, int[]> map = new HashMap<>();
         helper(map, root, 0);
@@ -30,11 +31,11 @@ public class Cousins_in_Binary_Tree_993 {
         }
         int parent = root.val;
         if (root.left != null) {
-            map.put(root.left.val, new int[] {parent, depth + 1});
+            map.put(root.left.val, new int[] { parent, depth + 1 });
             helper(map, root.left, depth + 1);
         }
         if (root.right != null) {
-            map.put(root.right.val, new int[] {parent, depth + 1});
+            map.put(root.right.val, new int[] { parent, depth + 1 });
             helper(map, root.right, depth + 1);
         }
     }

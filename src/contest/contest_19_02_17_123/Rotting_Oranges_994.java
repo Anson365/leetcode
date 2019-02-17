@@ -8,7 +8,9 @@ import java.util.List;
  * Created on 2019-02-17
  */
 public class Rotting_Oranges_994 {
+
     private int minutes = 0;
+
     public int orangesRotting(int[][] grid) {
         List<int[]> cells = new ArrayList<>();
         int freshCount = 0;
@@ -18,7 +20,7 @@ public class Rotting_Oranges_994 {
                 if (val == 1) {
                     freshCount++;
                 } else if (val == 2) {
-                    cells.add(new int[]{i, j});
+                    cells.add(new int[] { i, j });
                 }
             }
         }
@@ -42,7 +44,7 @@ public class Rotting_Oranges_994 {
             return;
         }
         List<int[]> newCells = new ArrayList<>();
-        int[][] directions = new int[][] {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+        int[][] directions = new int[][] { { -1, 0 }, { 1, 0 }, { 0, 1 }, { 0, -1 } };
         for (int[] cell : cells) {
             int i = cell[0];
             int j = cell[1];
@@ -51,7 +53,7 @@ public class Rotting_Oranges_994 {
                 int h = direction[1];
                 if (i + v >= 0 && i + v < grid.length && j + h >= 0 && j + h < grid[0].length) {
                     if (grid[i + v][j + h] == 1) {
-                        newCells.add(new int[] {i + v, j + h});
+                        newCells.add(new int[] { i + v, j + h });
                         grid[i + v][j + h] = 2;
                         leftCount--;
                     }
