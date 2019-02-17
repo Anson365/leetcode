@@ -33,8 +33,4 @@ public class Contest3 {
         }
         return;
     }
-    public static void main(String[] args) {
-        Contest3 contest3 = new Contest3();
-        contest3.minKBitFlips(new int[]{0, 1, 0}, 1);
-    }
 }
