@@ -1,7 +1,5 @@
 package math;
 
-import java.util.Arrays;
-
 /**
  * @author luodaihua
  * Created on 2019-03-05
@@ -29,10 +27,5 @@ public class Multiply_Strings_43 {
             sb.append(i);
         }
         return sb.toString();
-    }
-
-    public static void main(String[] args) {
-        Multiply_Strings_43 multiply_strings_43 = new Multiply_Strings_43();
-        multiply_strings_43.multiply("2", "3");
     }
 }
