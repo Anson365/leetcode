@@ -8,12 +8,13 @@ import java.util.List;
  * Created on 2019-03-10
  */
 public class Clumsy_Factorial_1006 {
+
     public int clumsy(int N) {
         List<Integer> listInteger = new ArrayList<>();
         List<String> listOperation = new ArrayList<>();
-        String[] operation = new String[] {"*", "/", "+", "-"};
+        String[] operation = new String[] { "*", "/", "+", "-" };
         int temp = N;
-        for (int i = N - 1; i > 0 ; i--) {
+        for (int i = N - 1; i > 0; i--) {
             int index = (N - i - 1) % 4;
             String curOp = operation[index];
             if ("*".equals(curOp)) {

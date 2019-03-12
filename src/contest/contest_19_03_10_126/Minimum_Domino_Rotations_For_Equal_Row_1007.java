@@ -8,12 +8,13 @@ import java.util.Map;
  * Created on 2019-03-10
  */
 public class Minimum_Domino_Rotations_For_Equal_Row_1007 {
+
     public int minDominoRotations(int[] A, int[] B) {
         if (A == null || A.length < 2) {
             return 0;
         }
         int commonA = findCommon(A, B);
-        int commonB = findCommon(B ,A);
+        int commonB = findCommon(B, A);
         if (commonA < 0) {
             return -1;
         }
@@ -57,9 +58,9 @@ public class Minimum_Domino_Rotations_For_Equal_Row_1007 {
                 return -1;
             }
             if (tempA != common) {
-                minA ++;
-            } else if (tempB != common){
-                minB ++;
+                minA++;
+            } else if (tempB != common) {
+                minB++;
             }
         }
         return Math.min(minA, minB);
