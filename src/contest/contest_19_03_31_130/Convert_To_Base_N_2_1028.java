@@ -1,6 +1,4 @@
-package contest.contest_19_03_31_129;
-
-import java.util.Arrays;
+package contest.contest_19_03_31_130;
 
 /**
  * @author luodaihua
