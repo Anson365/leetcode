@@ -1,9 +1,7 @@
-package contest.contest141;
+package contest.contest_141;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * @author luodaihua

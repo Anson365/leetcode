@@ -1,4 +1,4 @@
-package contest.contest141;
+package contest.contest_141;
 
 import java.util.Arrays;
 

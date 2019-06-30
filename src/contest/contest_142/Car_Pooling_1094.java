@@ -1,4 +1,4 @@
-package contest.contest142;
+package contest.contest_142;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;

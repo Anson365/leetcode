@@ -23,20 +23,4 @@ public class Find_Median_from_Data_Stream_256 {
     public double findMedian() {
         return max.size() == min.size() ? (max.peek() + min.peek()) / 2.0 : max.peek();
     }
-
-    public static void main(String[] args) {
-        Find_Median_from_Data_Stream_256 find = new Find_Median_from_Data_Stream_256();
-        find.addNum(6);
-        find.addNum(10);
-        find.addNum(2);
-        find.addNum(6);
-        find.addNum(5);
-        find.addNum(0);
-        find.addNum(6);
-        find.addNum(3);
-        find.addNum(1);
-        find.addNum(0);
-        find.addNum(0);
-    }
-
 }
