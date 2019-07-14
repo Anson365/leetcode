@@ -3,6 +3,7 @@ package array;
 import BaseConstruction.Interval;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -33,6 +34,29 @@ public class Merge_Intervals_56 {
             if (i == intervals.size() - 1) {
                 result.add(new Interval(start, end));
             }
+        }
+        return result;
+    }
+
+    public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals, (i1, i2) -> i1[0] - i2[0]);
+        List<int[]> list = new ArrayList<>();
+        int start = intervals[0][0];
+        int end = intervals[0][1];
+        for (int i = 1; i < intervals.length; i++) {
+            int[] tmp = intervals[i];
+            if (end >= tmp[0]) {
+                end = Math.max (end, tmp[1]);
+            } else {
+                list.add(new int[]{start, end});
+                start = tmp[0];
+                end = tmp[1];
+            }
+        }
+        list.add(new int[]{start, end});
+        int[][] result = new int[list.size()][2];
+        for (int i = 0; i < list.size(); i++) {
+            result[i] = list.get(i);
         }
         return result;
     }
