@@ -59,15 +59,5 @@ public class MinStack155 {
             this.data = x;
         }
     }
-//    public static void main(String[] args){
-//        MinStack155 minStack = new MinStack155();
-//        minStack.push(-2);
-//        minStack.push(0);
-//        minStack.push(-3);
-//        int data1 = minStack.getMin();   //--> Returns -3.
-//        minStack.pop();
-//        int data2 = minStack.top();      //--> Returns 0.
-//        int data3 = minStack.getMin();   //--> Returns -2.
-//        System.out.print(true);
-//    }
+
 }

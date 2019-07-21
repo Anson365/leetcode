@@ -39,6 +39,41 @@ public class Insert_Interval_57 {
         return result;
     }
 
+
+    public int[][] insert(int[][] intervals, int[] newInterval) {
+        if (intervals == null || intervals.length == 0) {
+            return new int[][] {newInterval};
+        }
+        List<int[]> result = new ArrayList<>();
+        boolean added = false;
+        for (int[] interval : intervals) {
+            int start = interval[0];
+            int end = interval[1];
+            if (end < newInterval[0]) {
+                result.add(interval);
+                continue;
+            }
+            if (start > newInterval[1]) {
+                if (!added) {
+                    result.add(newInterval);
+                    added = true;
+                }
+                result.add(interval);
+                continue;
+            }
+            newInterval[0] = Math.min(start, newInterval[0]);
+            newInterval[1] = Math.max(end, newInterval[1]);
+        }
+        if (!added) {
+            result.add(newInterval);
+        }
+        int[][] resultArray = new int[result.size()][2];
+        for (int i = 0; i < result.size(); i++) {
+            resultArray[i] = result.get(i);
+        }
+        return resultArray;
+    }
+
 //    public static void main(String[] args) {
 //        Insert_Interval_57 insert_interval_57 = new Insert_Interval_57();
 //        Interval interval = new Interval(1, 5);
