@@ -1,4 +1,4 @@
-package contest.Contest_147;
+package contest.contest_147;
 
 /**
  * @author luodaihua
