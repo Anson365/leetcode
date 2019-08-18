@@ -39,9 +39,4 @@ class Contest2 {
         memo[target][d] = sum;
         return sum;
     }
-
-    public static void main(String[] args) {
-        Contest2 contest2 = new Contest2();
-        contest2.numRollsToTarget(2, 6, 7);
-    }
 }
