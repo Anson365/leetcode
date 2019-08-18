@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 import BaseConstruction.TreeNode;
-import BaseConstruction.util.Util;
 
 /**
  * @author luodaihua
