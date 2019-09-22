@@ -11,18 +11,15 @@ public class LRUCache146 {
     private Map<Integer, Node> map;
     private Node head;
     private Node tail;
-    private int size;
     private final Integer CAPACITY;
-
 
     public LRUCache146(int capacity) {
         CAPACITY = capacity;
-        map = new HashMap<>(capacity * 4 / 3 + 1);
+        map = new HashMap<>(capacity);
         head = new Node(0, 0);
         tail = new Node(0, 0);
         head.next = tail;
         tail.pre = head;
-        size = 0;
     }
 
     public int get(int key) {
@@ -30,16 +27,17 @@ public class LRUCache146 {
         if (node == null) {
             return -1;
         }
-        if (size > 1) {
-            Node pre = node.pre;
-            Node next = node.next;
-            pre.next = next;
-            next.pre = pre;
-            tail.pre.next = node;
-            node.pre = tail.pre;
-            node.next = tail;
-            tail.pre = node;
-        }
+        Node pre = node.pre;
+        Node next = node.next;
+        pre.next = next;
+        next.pre = pre;
+
+        node.next = head.next;
+        node.next.pre = node;
+
+        head.next = node;
+        node.pre = head;
+
         return node.val;
     }
 
@@ -52,21 +50,21 @@ public class LRUCache146 {
             get(key);
             return;
         }
-        if (size == CAPACITY) {
-            map.remove(head.next.key);
-            head.next = head.next.next;
-            size--;
+        map.put(key, node);
+        if (map.size() > CAPACITY) {
+            map.remove(tail.pre.key);
+            tail.pre = tail.pre.pre;
+            tail.pre.next = tail;
+
         }
-        head.next.pre = node;
         node.next = head.next;
+        node.next.pre = node;
         head.next = node;
         node.pre = head;
-        map.put(key, node);
-        size++;
     }
 
-
     class Node {
+
         public int key;
         public int val;
         public Node pre;
@@ -78,11 +76,18 @@ public class LRUCache146 {
         }
     }
 
-//    public static void main(String[] args) {
-//        LRUCache146 lruCache146 = new LRUCache146(2);
-//        lruCache146.put(2,6);
-//        lruCache146.put(1,5);
-//        lruCache146.put(1,2);
-//        lruCache146.get(2);
-//    }
+    public static void main(String[] args) {
+        LRUCache146 lruCache146 = new LRUCache146(2);
+        lruCache146.put(1, 1);
+        lruCache146.put(2, 2);
+        lruCache146.get(1);
+        lruCache146.put(3, 3);
+        lruCache146.get(2);
+        lruCache146.put(4, 4);
+        lruCache146.get(1);       // returns -1 (not found)
+        lruCache146.get(3);       // returns 3
+        lruCache146.get(4);       // returns 4
+
+
+    }
 }
