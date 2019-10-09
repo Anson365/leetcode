@@ -9,12 +9,21 @@ import java.util.Comparator;
  */
 public class Test {
 
-    public static void main(String[] args) {
-        String tmp = "";
-        for (int i = 0; i< 32; i++) {
-            tmp += 1;
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int tail1 = m - 1;
+        int tail2 = n - 1;
+        for (int i = nums1.length - 1; i >= 0; i--) {
+            if (tail2 < 0 || (tail1 >= 0 && nums1[tail1] > nums2[tail2])) {
+                nums1[i] = nums1[tail1--];
+            } else {
+                nums1[i] = nums2[tail2--];
+            }
         }
-        System.out.println(8589934594L & 0x7fffffff00000000L);
+    }
+
+    public static void main(String[] args) {
+        Test test = new Test();
+        test.merge(new int[]{1,2,3,0,0,0}, 3, new int[]{2,5,6}, 3);
 
     }
 }
