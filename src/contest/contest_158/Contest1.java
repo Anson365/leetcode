@@ -13,9 +13,4 @@ class Contest1 {
 
         return count;
     }
-
-    public static void main(String[] args) {
-        Contest1 contest1 = new Contest1();
-        contest1.balancedStringSplit("RLRRLLRLRL");
-    }
 }
