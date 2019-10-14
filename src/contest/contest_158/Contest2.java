@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Contest2 {
+class Contest2 {
     private int[][] direction = new int[][] {{0, -1}, {1, -1}, {1, 0}, {1,1}, {0, 1}, {-1, 1}, {-1, 0}, {-1, -1}};
     public List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
         List<List<Integer>> res = new ArrayList<>();
