@@ -1,7 +1,7 @@
 package test;
 
 /**
- * @author Anson <luodaihua@kuaishou.com>
+ * @author Anson
  * Created on 2019-10-17
  */
 public class TestChild extends TestParent {

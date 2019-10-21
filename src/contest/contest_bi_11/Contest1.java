@@ -1,7 +1,7 @@
 package contest.contest_bi_11;
 
 /**
- * @author Anson <luodaihua@kuaishou.com>
+ * @author Anson
  * Created on 2019-10-19
  */
 class Contest1 {

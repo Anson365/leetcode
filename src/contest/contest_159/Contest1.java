@@ -1,7 +1,7 @@
 package contest.contest_159;
 
 /**
- * @author Anson <luodaihua@kuaishou.com>
+ * @author Anson
  * Created on 2019-10-20
  */
 class Contest1 {

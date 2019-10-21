@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author Anson <luodaihua@kuaishou.com>
+ * @author Anson
  * Created on 2019-10-20
  */
 class Contest2 {
